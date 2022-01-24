@@ -1,79 +1,39 @@
-[15:47:16] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:47:17] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
-[15:47:17] [Worker-Main-4/INFO]: Loaded 7 recipes
-[15:47:18] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[15:47:18] [Server thread/INFO]: Loading properties
-[15:47:18] [Server thread/INFO]: This server is running Purpur version git-Purpur-1502 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 0494fff on HEAD)
-[15:47:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:47:19] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:47:19] [Server thread/WARN]: [Pufferfish] To improve performance, timings have been disabled by default
-[15:47:19] [Server thread/WARN]: [Pufferfish] You can still use timings by using /timings on, but they will not start on server startup unless you set timings.really-enabled to true in paper.yml
-[15:47:19] [Server thread/WARN]: [Pufferfish] If you would like to disable this message, either set timings.really-enabled to true or timings.enabled to false.
-[15:47:19] [Server thread/INFO]: Default game type: CREATIVE
-[15:47:19] [Server thread/INFO]: Generating keypair
-[15:47:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:47:19] [Server thread/INFO]: Using default channel type
-[15:47:19] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[15:47:19] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[15:47:19] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_18_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[15:47:22] [Server thread/WARN]: Legacy plugin FullServerJoin v1.4 does not specify an api-version.
-[15:47:22] [Server thread/INFO]: [FullServerJoin] Loading FullServerJoin v1.4
-[15:47:22] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.1.1
-[15:47:22] [Server thread/INFO]: [ViaVersion] ViaVersion 4.1.1 is now loaded, injecting!
-[15:47:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[15:47:22] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[15:47:22] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[15:47:22] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[15:47:22] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[15:47:22] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[15:47:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[15:47:22] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
-[15:47:22] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
-[15:47:22] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.0.0
-[15:47:22] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[15:47:22] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
-[15:47:22] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
-[15:47:22] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
-[15:47:22] [Via-Mappingloader-2/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_12_2To1_13
-[15:47:22] [Via-Mappingloader-2/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
-[15:47:22] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
-[15:47:22] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
-[15:47:22] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
-[15:47:22] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
-[15:47:22] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[15:47:22] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-[15:47:22] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-[15:47:22] [Via-Mappingloader-2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[15:47:22] [Via-Mappingloader-2/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
-[15:47:22] [Via-Mappingloader-2/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
-[15:47:22] [Via-Mappingloader-2/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
-[15:47:22] [Via-Mappingloader-2/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
-[15:47:22] [Via-Mappingloader-2/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
-[15:47:22] [Via-Mappingloader-2/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.protocol.protocol1_12_2to1_13.Protocol1_12_2To1_13.lambda$registerPackets$0(Protocol1_12_2To1_13.java:60)
-[15:47:22] [Via-Mappingloader-2/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:451)
-[15:47:22] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
-[15:47:22] [Via-Mappingloader-2/WARN]: 	... 5 more
-[15:47:22] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
-[15:47:22] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
-[15:47:23] [Via-Mappingloader-2/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_13_2To1_14
-[15:47:23] [Via-Mappingloader-2/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
-[15:47:23] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
-[15:47:23] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
-[15:47:23] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
-[15:47:23] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
-[15:47:23] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[15:47:23] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-[15:47:23] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-[15:47:23] [Via-Mappingloader-2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[15:47:23] [Via-Mappingloader-2/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
-[15:47:23] [Via-Mappingloader-2/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
-[15:47:23] [Via-Mappingloader-2/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
-[15:47:23] [Via-Mappingloader-2/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
-[15:47:23] [Via-Mappingloader-2/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
-[15:47:23] [Via-Mappingloader-2/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:451)
-[15:47:23] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
-[15:47:23] [Via-Mappingloader-2/WARN]: 	... 5 more
-[15:47:23] [Server thread/ERROR]: [org.bukkit.craftbukkit.v1_18_R1.CraftServer] Load factor must be greater than 0 and smaller than 1 initializing ViaBackwards v4.0.0 (Is it up to date?)
+[18:03:52] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:03:53] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[18:03:56] [Worker-Main-1/INFO]: Loaded 7 recipes
+[18:04:02] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[18:04:02] [Server thread/INFO]: Loading properties
+[18:04:02] [Server thread/INFO]: This server is running Purpur version git-Purpur-1502 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 0494fff on HEAD)
+[18:04:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:04:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:04:03] [Server thread/WARN]: [Pufferfish] To improve performance, timings have been disabled by default
+[18:04:03] [Server thread/WARN]: [Pufferfish] You can still use timings by using /timings on, but they will not start on server startup unless you set timings.really-enabled to true in paper.yml
+[18:04:03] [Server thread/WARN]: [Pufferfish] If you would like to disable this message, either set timings.really-enabled to true or timings.enabled to false.
+[18:04:03] [Server thread/INFO]: Default game type: CREATIVE
+[18:04:03] [Server thread/INFO]: Generating keypair
+[18:04:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:04:04] [Server thread/INFO]: Using default channel type
+[18:04:04] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[18:04:04] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:04:05] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_18_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:04:18] [Server thread/WARN]: Legacy plugin FullServerJoin v1.4 does not specify an api-version.
+[18:04:18] [Server thread/INFO]: [FullServerJoin] Loading FullServerJoin v1.4
+[18:04:18] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.1.1
+[18:04:19] [Server thread/INFO]: [ViaVersion] ViaVersion 4.1.1 is now loaded, injecting!
+[18:04:19] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[18:04:19] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[18:04:19] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[18:04:19] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[18:04:20] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[18:04:20] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.0.0
+[18:04:20] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:04:20] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[18:04:20] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[18:04:20] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[18:04:20] [Via-Mappingloader-8/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[18:04:20] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[18:04:20] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:04:20] [Server thread/ERROR]: [org.bukkit.craftbukkit.v1_18_R1.CraftServer] Load factor must be greater than 0 and smaller than 1 initializing ViaBackwards v4.0.0 (Is it up to date?)
 java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
 	at com.viaversion.viaversion.libs.fastutil.ints.Int2IntOpenHashMap.<init>(Int2IntOpenHashMap.java:101) ~[ViaVersion-4.1.1.jar:?]
 	at com.viaversion.viabackwards.api.rewriters.EntityRewriterBase.mapTypes(EntityRewriterBase.java:150) ~[ViaBackwards-4.0.0.jar:?]
@@ -91,143 +51,120 @@ java.lang.IllegalArgumentException: Load factor must be greater than 0 and small
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1218) ~[purpur-1.18.1.jar:git-Purpur-1502]
 	at net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322) ~[purpur-1.18.1.jar:git-Purpur-1502]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[15:47:23] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.0
-[15:47:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:47:23] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.0
-[15:47:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:47:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:47:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:47:23] [Server thread/WARN]: You will not be offered any support as long as the server allows offline-mode players to join.
-[15:47:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:47:23] [Server thread/INFO]: Preparing level "world"
-[15:47:23] [Server thread/INFO]: -------- World Settings For [world] --------
-[15:47:23] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[15:47:23] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[15:47:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:47:24] [Server thread/INFO]: Time elapsed: 198 ms
-[15:47:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:47:24] [Server thread/INFO]: Time elapsed: 62 ms
-[15:47:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:47:24] [Server thread/INFO]: Time elapsed: 53 ms
-[15:47:24] [Server thread/INFO]: [FullServerJoin] Enabling FullServerJoin v1.4*
-[15:47:24] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.1.1
-[15:47:24] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.0.0
-[15:47:24] [Server thread/INFO]: Starting GS4 status listener
-[15:47:24] [Server thread/INFO]: Thread Query Listener started
-[15:47:24] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[15:47:24] [Server thread/INFO]: Running delayed init tasks
-[15:47:24] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18 (757)
-[15:47:24] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
-[15:47:24] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
-[15:47:24] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
-[15:47:24] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://jo0001.github.io/ViaSetup
-[15:47:24] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
-[15:47:24] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[15:47:24] [Server thread/INFO]: Done (5.677s)! For help, type "help"
-[15:47:24] [Server thread/INFO]: Timings Reset
-[15:47:25] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/44, uuid='be8cf6a5-d4d2-4ac6-9d21-7af605aecd9c', l='ServerLevel[world]', x=96.18, y=65.00, z=267.18, cpos=[6, 16], tl=298544, v=false]
-[15:47:25] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/46, uuid='be8cf6a5-d4d2-4ac6-9d21-7af605aecd9c', l='ServerLevel[world]', x=108.41, y=65.00, z=277.56, cpos=[6, 17], tl=310545, v=false]
-[15:47:25] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/50, uuid='303695ad-03d1-47ac-970d-003bfc5eeae1', l='ServerLevel[world]', x=117.16, y=72.00, z=128.92, cpos=[7, 8], tl=214493, v=false]
-[15:47:25] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/51, uuid='064620da-6c91-473b-81cc-3b541184f147', l='ServerLevel[world]', x=112.15, y=66.00, z=175.86, cpos=[7, 10], tl=412527, v=false]
-[15:47:25] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/52, uuid='be8cf6a5-d4d2-4ac6-9d21-7af605aecd9c', l='ServerLevel[world]', x=113.52, y=66.00, z=264.27, cpos=[7, 16], tl=316544, v=false]
-[15:47:25] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/56, uuid='303695ad-03d1-47ac-970d-003bfc5eeae1', l='ServerLevel[world]', x=138.48, y=70.00, z=111.06, cpos=[8, 6], tl=178491, v=false]
-[15:47:25] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/65, uuid='be8cf6a5-d4d2-4ac6-9d21-7af605aecd9c', l='ServerLevel[world]', x=135.22, y=71.00, z=222.50, cpos=[8, 13], tl=430541, v=false]
-[15:47:25] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/66, uuid='be8cf6a5-d4d2-4ac6-9d21-7af605aecd9c', l='ServerLevel[world]', x=141.52, y=70.00, z=226.78, cpos=[8, 14], tl=382542, v=false]
-[15:47:25] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/73, uuid='064620da-6c91-473b-81cc-3b541184f147', l='ServerLevel[world]', x=144.08, y=69.00, z=137.92, cpos=[9, 8], tl=304525, v=false]
-[15:47:25] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/123, uuid='a478033d-3f01-4f8d-baeb-dd59a161f048', l='ServerLevel[world]', x=212.87, y=73.00, z=171.50, cpos=[13, 10], tl=292441, v=false]
-[15:47:25] [Server thread/WARN]: UUID of added entity already exists: EntityPig['Pig'/137, uuid='6ae9ae3b-43dc-4835-8863-b8723a88fd73', l='ServerLevel[world]', x=253.39, y=73.00, z=203.54, cpos=[15, 12], tl=178374, v=false]
-[15:47:25] [Server thread/WARN]: UUID of added entity already exists: EntityCow['Cow'/153, uuid='c4df1e76-41a0-4a34-b40b-9a143d236abd', l='ServerLevel[world]', x=293.04, y=77.00, z=-0.08, cpos=[18, -1], tl=152691, v=false]
-[15:47:47] [User Authenticator #1/INFO]: UUID of player aritz331_ is f878090c-42dc-3ff0-b26f-4ab19e0244d4
-[15:47:47] [Server thread/INFO]: aritz331_ lost connection: Disconnected
-[15:47:56] [User Authenticator #1/INFO]: UUID of player aritz331_ is f878090c-42dc-3ff0-b26f-4ab19e0244d4
-[15:47:56] [Server thread/INFO]: aritz331_ joined the game
-[15:47:56] [Server thread/INFO]: aritz331_[/127.0.0.1:65152] logged in with entity id 245 at ([world]217.23721920655845, 92.82383284448561, 8.519665068176371)
-[15:58:55] [Server thread/INFO]: aritz331_ issued server command: /time set day
-[15:58:55] [Server thread/INFO]: [aritz331_: Set the time to 1000]
-[15:59:00] [Server thread/INFO]: aritz331_ issued server command: /gamerule doDaylightCycle false
-[15:59:00] [Server thread/INFO]: [aritz331_: Gamerule doDaylightCycle is now set to: false]
-[15:59:01] [Server thread/INFO]: aritz331_ issued server command: /time set day
-[15:59:01] [Server thread/INFO]: [aritz331_: Set the time to 1000]
-[16:04:06] [Server thread/INFO]: aritz331_ has made the advancement [Ice Bucket Challenge]
-[16:27:00] [Server thread/INFO]: aritz331_ issued server command: /reload
-[16:27:00] [Server thread/INFO]: aritz331_: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[16:27:04] [Server thread/INFO]: aritz331_ issued server command: /reload confirm
-[16:27:04] [Server thread/INFO]: aritz331_: Please note that this command is not supported and may cause issues when using some plugins.
-[16:27:04] [Server thread/INFO]: aritz331_: If you encounter any issues please use the /stop command to restart your server.
-[16:27:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:27:04] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:27:04] [Server thread/WARN]: [Pufferfish] To improve performance, timings have been disabled by default
-[16:27:04] [Server thread/WARN]: [Pufferfish] You can still use timings by using /timings on, but they will not start on server startup unless you set timings.really-enabled to true in paper.yml
-[16:27:04] [Server thread/WARN]: [Pufferfish] If you would like to disable this message, either set timings.really-enabled to true or timings.enabled to false.
-[16:27:04] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:27:04] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:27:04] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:27:04] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.0
-[16:27:04] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.0.0
-[16:27:04] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.1.1
-[16:27:04] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[16:27:04] [Server thread/INFO]: [FullServerJoin] Disabling FullServerJoin v1.4
-[16:27:04] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[16:27:04] [Server thread/INFO]: Loaded 7 recipes
-[16:27:05] [Server thread/WARN]: Legacy plugin FullServerJoin v1.4 does not specify an api-version.
-[16:27:05] [Server thread/INFO]: [FullServerJoin] Loading FullServerJoin v1.4
-[16:27:05] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.1.1
-[16:27:05] [Server thread/INFO]: [ViaVersion] ViaVersion 4.1.1 is now loaded, injecting!
-[16:27:05] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
-[16:27:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[16:27:05] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[16:27:05] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[16:27:05] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[16:27:05] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[16:27:05] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[16:27:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[16:27:05] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
-[16:27:05] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
-[16:27:05] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.0.0
-[16:27:05] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[16:27:05] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
-[16:27:05] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
-[16:27:05] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
-[16:27:05] [Via-Mappingloader-4/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_12_2To1_13
-[16:27:05] [Via-Mappingloader-4/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[16:27:05] [Via-Mappingloader-4/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.protocol.protocol1_12_2to1_13.Protocol1_12_2To1_13.lambda$registerPackets$0(Protocol1_12_2To1_13.java:60)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:451)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	... 5 more
-[16:27:05] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
-[16:27:05] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
-[16:27:05] [Via-Mappingloader-4/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_13_2To1_14
-[16:27:05] [Via-Mappingloader-4/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[16:27:05] [Via-Mappingloader-4/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:451)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
-[16:27:05] [Via-Mappingloader-4/WARN]: 	... 5 more
-[16:27:05] [Server thread/ERROR]: [org.bukkit.craftbukkit.v1_18_R1.CraftServer] Load factor must be greater than 0 and smaller than 1 initializing ViaBackwards v4.0.0 (Is it up to date?)
+[18:04:20] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.0
+[18:04:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:04:20] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.0
+[18:04:20] [Via-Mappingloader-9/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[18:04:20] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[18:04:20] [Via-Mappingloader-3/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_13_2To1_14
+[18:04:20] [Via-Mappingloader-3/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:04:20] [Via-Mappingloader-3/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+[18:04:20] [Via-Mappingloader-3/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+[18:04:20] [Via-Mappingloader-3/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
+[18:04:20] [Via-Mappingloader-3/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+[18:04:20] [Via-Mappingloader-3/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[18:04:20] [Via-Mappingloader-3/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[18:04:20] [Via-Mappingloader-3/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[18:04:20] [Via-Mappingloader-3/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:04:20] [Via-Mappingloader-3/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:04:20] [Via-Mappingloader-3/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
+[18:04:20] [Via-Mappingloader-3/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
+[18:04:20] [Via-Mappingloader-3/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
+[18:04:20] [Via-Mappingloader-3/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
+[18:04:20] [Via-Mappingloader-3/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:451)
+[18:04:20] [Via-Mappingloader-3/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+[18:04:20] [Via-Mappingloader-3/WARN]: 	... 5 more
+[18:04:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:04:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:04:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:04:21] [Server thread/WARN]: You will not be offered any support as long as the server allows offline-mode players to join.
+[18:04:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:04:21] [Server thread/INFO]: Preparing level "world"
+[18:04:21] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[18:04:21] [Via-Mappingloader-7/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_12_2To1_13
+[18:04:21] [Via-Mappingloader-7/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:04:21] [Via-Mappingloader-7/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+[18:04:21] [Via-Mappingloader-7/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+[18:04:21] [Via-Mappingloader-7/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
+[18:04:21] [Via-Mappingloader-7/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+[18:04:21] [Via-Mappingloader-7/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[18:04:21] [Via-Mappingloader-7/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[18:04:21] [Via-Mappingloader-7/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[18:04:21] [Via-Mappingloader-7/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:04:21] [Via-Mappingloader-7/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:04:21] [Via-Mappingloader-7/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
+[18:04:21] [Via-Mappingloader-7/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
+[18:04:21] [Via-Mappingloader-7/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
+[18:04:21] [Via-Mappingloader-7/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
+[18:04:21] [Via-Mappingloader-7/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.protocol.protocol1_12_2to1_13.Protocol1_12_2To1_13.lambda$registerPackets$0(Protocol1_12_2To1_13.java:60)
+[18:04:21] [Via-Mappingloader-7/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:451)
+[18:04:21] [Via-Mappingloader-7/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+[18:04:21] [Via-Mappingloader-7/WARN]: 	... 5 more
+[18:04:23] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:04:23] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:04:24] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:04:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:04:24] [Server thread/INFO]: Time elapsed: 502 ms
+[18:04:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:04:25] [Server thread/INFO]: Time elapsed: 281 ms
+[18:04:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:04:25] [Server thread/INFO]: Time elapsed: 347 ms
+[18:04:25] [Server thread/INFO]: [FullServerJoin] Enabling FullServerJoin v1.4*
+[18:04:25] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.1.1
+[18:04:25] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.0.0
+[18:04:25] [Server thread/INFO]: Starting GS4 status listener
+[18:04:25] [Server thread/INFO]: Thread Query Listener started
+[18:04:25] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[18:04:25] [Server thread/INFO]: Running delayed init tasks
+[18:04:25] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18 (757)
+[18:04:25] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[18:04:25] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[18:04:25] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[18:04:25] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://jo0001.github.io/ViaSetup
+[18:04:25] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[18:04:25] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[18:04:25] [Server thread/INFO]: Done (23.056s)! For help, type "help"
+[18:04:25] [Server thread/INFO]: Timings Reset
+[18:04:31] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[18:04:34] [Server thread/INFO]: CONSOLE: Usage: /reload [permissions|commands|confirm]
+[18:04:35] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[18:04:35] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[18:04:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:04:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:04:35] [Server thread/WARN]: [Pufferfish] To improve performance, timings have been disabled by default
+[18:04:35] [Server thread/WARN]: [Pufferfish] You can still use timings by using /timings on, but they will not start on server startup unless you set timings.really-enabled to true in paper.yml
+[18:04:35] [Server thread/WARN]: [Pufferfish] If you would like to disable this message, either set timings.really-enabled to true or timings.enabled to false.
+[18:04:35] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:04:35] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:04:35] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:04:35] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.0
+[18:04:35] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.0.0
+[18:04:35] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.1.1
+[18:04:35] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[18:04:35] [Server thread/INFO]: [FullServerJoin] Disabling FullServerJoin v1.4
+[18:04:35] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[18:04:38] [Server thread/INFO]: Loaded 7 recipes
+[18:04:40] [Server thread/WARN]: Legacy plugin FullServerJoin v1.4 does not specify an api-version.
+[18:04:40] [Server thread/INFO]: [FullServerJoin] Loading FullServerJoin v1.4
+[18:04:40] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.1.1
+[18:04:40] [Server thread/INFO]: [ViaVersion] ViaVersion 4.1.1 is now loaded, injecting!
+[18:04:40] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[18:04:41] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[18:04:41] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[18:04:41] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[18:04:41] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.0.0
+[18:04:41] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[18:04:41] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:04:41] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[18:04:41] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[18:04:41] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[18:04:41] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[18:04:41] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[18:04:41] [Via-Mappingloader-8/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[18:04:41] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:04:41] [Via-Mappingloader-8/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[18:04:42] [Via-Mappingloader-8/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[18:04:42] [Server thread/ERROR]: [org.bukkit.craftbukkit.v1_18_R1.CraftServer] Load factor must be greater than 0 and smaller than 1 initializing ViaBackwards v4.0.0 (Is it up to date?)
 java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
 	at com.viaversion.viaversion.libs.fastutil.ints.Int2IntOpenHashMap.<init>(Int2IntOpenHashMap.java:101) ~[ViaVersion-4.1.1.jar:?]
 	at com.viaversion.viabackwards.api.rewriters.EntityRewriterBase.mapTypes(EntityRewriterBase.java:150) ~[ViaBackwards-4.0.0.jar:?]
@@ -246,69 +183,83 @@ java.lang.IllegalArgumentException: Load factor must be greater than 0 and small
 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[purpur-api-1.18.1-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:172) ~[purpur-api-1.18.1-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.dispatchCommand(CraftServer.java:897) ~[purpur-1.18.1.jar:git-Purpur-1502]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleCommand(ServerGamePacketListenerImpl.java:2368) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleChat(ServerGamePacketListenerImpl.java:2179) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleChat(ServerGamePacketListenerImpl.java:2160) ~[?:?]
-	at net.minecraft.network.protocol.game.ServerboundChatPacket.handle(ServerboundChatPacket.java:46) ~[?:?]
-	at net.minecraft.network.protocol.game.ServerboundChatPacket.a(ServerboundChatPacket.java:6) ~[?:?]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:56) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[purpur-1.18.1.jar:git-Purpur-1502]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:149) ~[?:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[?:?]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1440) ~[purpur-1.18.1.jar:git-Purpur-1502]
-	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:189) ~[purpur-1.18.1.jar:git-Purpur-1502]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[?:?]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1418) ~[purpur-1.18.1.jar:git-Purpur-1502]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1411) ~[purpur-1.18.1.jar:git-Purpur-1502]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[?:?]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1389) ~[purpur-1.18.1.jar:git-Purpur-1502]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1295) ~[purpur-1.18.1.jar:git-Purpur-1502]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.dispatchServerCommand(CraftServer.java:860) ~[purpur-1.18.1.jar:git-Purpur-1502]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:546) ~[purpur-1.18.1.jar:git-Purpur-1502]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:520) ~[purpur-1.18.1.jar:git-Purpur-1502]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1497) ~[purpur-1.18.1.jar:git-Purpur-1502]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1285) ~[purpur-1.18.1.jar:git-Purpur-1502]
 	at net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322) ~[purpur-1.18.1.jar:git-Purpur-1502]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[16:27:05] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.0
-[16:27:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:27:05] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.0
-[16:27:05] [Server thread/INFO]: [FullServerJoin] Enabling FullServerJoin v1.4*
-[16:27:05] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.1.1
-[16:27:05] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.0.0
-[16:27:05] [Server thread/INFO]: aritz331_: Reload complete.
-[16:27:05] [Server thread/INFO]: Timings Reset
-[16:27:05] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18 (757)
-[16:27:05] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
-[16:27:05] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
-[16:27:05] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
-[16:27:05] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://jo0001.github.io/ViaSetup
-[16:27:05] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
-[16:27:05] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[16:27:08] [Server thread/INFO]: aritz331_ lost connection: Disconnected
-[16:27:08] [Server thread/INFO]: aritz331_ left the game
-[16:28:55] [User Authenticator #2/INFO]: UUID of player aritz331_ is f878090c-42dc-3ff0-b26f-4ab19e0244d4
-[16:28:56] [Server thread/INFO]: aritz331_ joined the game
-[16:28:56] [Server thread/INFO]: aritz331_[/192.168.1.63:64303] logged in with entity id 4377 at ([world]92.13540976088863, 82.0, -52.700235611602366)
-[16:30:21] [Server thread/INFO]: aritz331_ lost connection: Disconnected
-[16:30:21] [Server thread/INFO]: aritz331_ left the game
-[16:31:25] [User Authenticator #3/INFO]: UUID of player aritz331_ is f878090c-42dc-3ff0-b26f-4ab19e0244d4
-[16:31:25] [Server thread/INFO]: aritz331_ joined the game
-[16:31:25] [Server thread/INFO]: aritz331_[/127.0.0.1:57303] logged in with entity id 4573 at ([world]92.13540976088863, 82.0, -52.700235611602366)
-[16:57:33] [Server thread/INFO]: aritz331_ issued server command: /clear
-[16:57:33] [Server thread/INFO]: [aritz331_: Removed 7 items from player aritz331_]
-[16:58:09] [Server thread/INFO]: aritz331_ lost connection: Disconnected
-[16:58:09] [Server thread/INFO]: aritz331_ left the game
-[17:49:05] [Server thread/INFO]: Stopping server
-[17:49:05] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.0
-[17:49:05] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.0.0
-[17:49:05] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.1.1
-[17:49:05] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[17:49:05] [Server thread/INFO]: [FullServerJoin] Disabling FullServerJoin v1.4
-[17:49:05] [Server thread/INFO]: Saving players
-[17:49:05] [Server thread/INFO]: Saving worlds
-[17:49:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:49:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:49:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:49:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:49:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:49:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:49:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:49:06] [Server thread/INFO]: Flushing Chunk IO
-[17:49:06] [Server thread/INFO]: Closing Thread Pool
-[17:49:06] [Server thread/INFO]: Closing Server
+[18:04:42] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.0
+[18:04:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:04:42] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.0
+[18:04:42] [Via-Mappingloader-8/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_13_2To1_14
+[18:04:42] [Via-Mappingloader-8/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:04:42] [Via-Mappingloader-8/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:451)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	... 5 more
+[18:04:42] [Server thread/INFO]: [FullServerJoin] Enabling FullServerJoin v1.4*
+[18:04:42] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.1.1
+[18:04:42] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.0.0
+[18:04:42] [Server thread/INFO]: CONSOLE: Reload complete.
+[18:04:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7368ms or 147 ticks behind
+[18:04:42] [Server thread/INFO]: Timings Reset
+[18:04:42] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18 (757)
+[18:04:42] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[18:04:42] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[18:04:42] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[18:04:42] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://jo0001.github.io/ViaSetup
+[18:04:42] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[18:04:42] [Via-Mappingloader-8/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[18:04:42] [Via-Mappingloader-8/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_12_2To1_13
+[18:04:42] [Via-Mappingloader-8/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:04:42] [Via-Mappingloader-8/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.protocol.protocol1_12_2to1_13.Protocol1_12_2To1_13.lambda$registerPackets$0(Protocol1_12_2To1_13.java:60)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:451)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+[18:04:42] [Via-Mappingloader-8/WARN]: 	... 5 more
+[18:04:43] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[18:04:47] [Server thread/INFO]: Unknown command
+[18:24:46] [Server thread/INFO]: Stopping server
+[18:24:46] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.0
+[18:24:46] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.0.0
+[18:24:46] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.1.1
+[18:24:46] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[18:24:46] [Server thread/INFO]: [FullServerJoin] Disabling FullServerJoin v1.4
+[18:24:46] [Server thread/INFO]: Saving players
+[18:24:46] [Server thread/INFO]: Saving worlds
+[18:24:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:24:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:24:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:24:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:24:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:24:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:24:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:24:46] [Server thread/INFO]: Flushing Chunk IO
+[18:24:46] [Server thread/INFO]: Closing Thread Pool
+[18:24:46] [Server thread/INFO]: Closing Server
