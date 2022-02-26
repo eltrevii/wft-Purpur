@@ -40,8 +40,7 @@ advancements:
 messages:
   whitelist: §4You are not whitelisted on this server. §aAsk \u00A7x\u00A7f\u00A7f\u00A70\u00A70\u00A70\u00A70A\u00A7x\u00A7f\u00A7f\u00A72\u00A70\u00A70\u00A70r\u00A7x\u00A7f\u00A7f\u00A74\u00A70\u00A70\u00A70i\u00A7x\u00A7f\u00A7f\u00A75\u00A7f\u00A70\u00A70t\u00A7x\u00A7f\u00A7f\u00A77\u00A7f\u00A70\u00A70z\u00A7x\u00A7f\u00A7f\u00A79\u00A7f\u00A70\u00A703\u00A7x\u00A7f\u00A7f\u00A7b\u00A7f\u00A70\u00A703\u00A7x\u00A7f\u00A7f\u00A7d\u00A7f\u00A70\u00A701\u00A7x\u00A7f\u00A7f\u00A7f\u00A7f\u00A70\u00A70_
     §ato add you to the whitelist!
-  unknown-command: §x§f§f§0§0§0§0U§x§f§f§2§7§0§0n§x§f§f§4§e§0§0k§x§f§f§7§5§0§0n§x§f§f§9§d§0§0o§x§f§f§c§4§0§0w§x§f§f§e§b§0§0n
-    §x§f§f§e§b§0§0c§x§f§f§c§4§0§0o§x§f§f§9§d§0§0m§x§f§f§7§5§0§0m§x§f§f§4§e§0§0a§x§f§f§2§7§0§0n§x§f§f§0§0§0§0d
+  unknown-command: §x§f§f§0§0§0§0U§x§f§f§2§7§0§0n§x§f§f§4§e§0§0k§x§f§f§7§5§0§0n§x§f§f§9§d§0§0o§x§f§f§c§4§0§0w§x§f§f§e§b§0§0n §x§f§f§e§b§0§0c§x§f§f§c§4§0§0o§x§f§f§9§d§0§0m§x§f§f§7§5§0§0m§x§f§f§4§e§0§0a§x§f§f§2§7§0§0n§x§f§f§0§0§0§0d
   server-full: §cFullServerJoin plugin is not working. Please contact \u00A7x\u00A7f\u00A7f\u00A70\u00A70\u00A70\u00A70A\u00A7x\u00A7f\u00A7f\u00A72\u00A70\u00A70\u00A70r\u00A7x\u00A7f\u00A7f\u00A74\u00A70\u00A70\u00A70i\u00A7x\u00A7f\u00A7f\u00A75\u00A7f\u00A70\u00A70t\u00A7x\u00A7f\u00A7f\u00A77\u00A7f\u00A70\u00A70z\u00A7x\u00A7f\u00A7f\u00A79\u00A7f\u00A70\u00A703\u00A7x\u00A7f\u00A7f\u00A7b\u00A7f\u00A70\u00A703\u00A7x\u00A7f\u00A7f\u00A7d\u00A7f\u00A70\u00A701\u00A7x\u00A7f\u00A7f\u00A7f\u00A7f\u00A70\u00A70_
     §con discord
   outdated-client: §cViaVersion is not working (WTF). Please contact \u00A7x\u00A7f\u00A7f\u00A70\u00A70\u00A70\u00A70A\u00A7x\u00A7f\u00A7f\u00A72\u00A70\u00A70\u00A70r\u00A7x\u00A7f\u00A7f\u00A74\u00A70\u00A70\u00A70i\u00A7x\u00A7f\u00A7f\u00A75\u00A7f\u00A70\u00A70t\u00A7x\u00A7f\u00A7f\u00A77\u00A7f\u00A70\u00A70z\u00A7x\u00A7f\u00A7f\u00A79\u00A7f\u00A70\u00A703\u00A7x\u00A7f\u00A7f\u00A7b\u00A7f\u00A70\u00A703\u00A7x\u00A7f\u00A7f\u00A7d\u00A7f\u00A70\u00A701\u00A7x\u00A7f\u00A7f\u00A7f\u00A7f\u00A70\u00A70_§c
@@ -49,7 +48,7 @@ messages:
   outdated-server: §cViaBackwards/ViaRewind is not working (WTF). Please contact \u00A7x\u00A7f\u00A7f\u00A70\u00A70\u00A70\u00A70A\u00A7x\u00A7f\u00A7f\u00A72\u00A70\u00A70\u00A70r\u00A7x\u00A7f\u00A7f\u00A74\u00A70\u00A70\u00A70i\u00A7x\u00A7f\u00A7f\u00A75\u00A7f\u00A70\u00A70t\u00A7x\u00A7f\u00A7f\u00A77\u00A7f\u00A70\u00A70z\u00A7x\u00A7f\u00A7f\u00A79\u00A7f\u00A70\u00A703\u00A7x\u00A7f\u00A7f\u00A7b\u00A7f\u00A70\u00A703\u00A7x\u00A7f\u00A7f\u00A7d\u00A7f\u00A70\u00A701\u00A7x\u00A7f\u00A7f\u00A7f\u00A7f\u00A70\u00A70_§c
     through discord, meanwhile use version {0}
   restart: §aServer is restarting, reconnect in a few seconds. If the problem persists,
-    please contact §4A§cr§6i§et§2z§a3§b3§31§1_ §aon discord
+    please contact \u00A7x\u00A7f\u00A7f\u00A70\u00A70\u00A70\u00A70A\u00A7x\u00A7f\u00A7f\u00A72\u00A70\u00A70\u00A70r\u00A7x\u00A7f\u00A7f\u00A74\u00A70\u00A70\u00A70i\u00A7x\u00A7f\u00A7f\u00A75\u00A7f\u00A70\u00A70t\u00A7x\u00A7f\u00A7f\u00A77\u00A7f\u00A70\u00A70z\u00A7x\u00A7f\u00A7f\u00A79\u00A7f\u00A70\u00A703\u00A7x\u00A7f\u00A7f\u00A7b\u00A7f\u00A70\u00A703\u00A7x\u00A7f\u00A7f\u00A7d\u00A7f\u00A70\u00A701\u00A7x\u00A7f\u00A7f\u00A7f\u00A7f\u00A70\u00A70_ §athrough discord
 commands:
   silent-commandblock-console: false
   spam-exclusions:
