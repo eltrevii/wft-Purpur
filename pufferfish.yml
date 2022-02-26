@@ -26,3 +26,4 @@ inactive-goal-selector-throttle: true
 # Options for connecting to Pufferfish/Airplane's online utilities
 web-services:
   token: ''
+enable-suffocation-optimization: true

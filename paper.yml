@@ -11,8 +11,9 @@
 # Docs: https://paper.readthedocs.org/ 
 
 verbose: false
-config-version: 24
+config-version: 25
 settings:
+  use-dimension-type-for-custom-spawners: false
   fix-target-selector-tag-completion: true
   time-command-affects-all-worlds: false
   player-auto-save-rate: -1
@@ -83,7 +84,7 @@ settings:
     global-max-chunk-send-rate: -1.0
     enable-frustum-priority: false
     global-max-chunk-load-rate: -1.0
-    player-max-concurrent-loads: 4.0
+    player-max-concurrent-loads: 20.0
     global-max-concurrent-loads: 500.0
   item-validation:
     display-name: 8192
@@ -111,17 +112,45 @@ timings:
   - server-ip
   history-interval: 300
   history-length: 3600
-  server-name: Unknown Server
+  server-name: Aritz331's Server
 messages:
-  no-permission: '&cI''m sorry, but you do not have permission to perform this command.
-    Please contact the server administrators if you believe that this is in error.'
+  no-permission: '&cYou don''t have permissions to run that command. Please contact
+    \u00A7x\u00A7f\u00A7f\u00A70\u00A70\u00A70\u00A70A\u00A7x\u00A7f\u00A7f\u00A72\u00A70\u00A70\u00A70r\u00A7x\u00A7f\u00A7f\u00A74\u00A70\u00A70\u00A70i\u00A7x\u00A7f\u00A7f\u00A75\u00A7f\u00A70\u00A70t\u00A7x\u00A7f\u00A7f\u00A77\u00A7f\u00A70\u00A70z\u00A7x\u00A7f\u00A7f\u00A79\u00A7f\u00A70\u00A703\u00A7x\u00A7f\u00A7f\u00A7b\u00A7f\u00A70\u00A703\u00A7x\u00A7f\u00A7f\u00A7d\u00A7f\u00A70\u00A701\u00A7x\u00A7f\u00A7f\u00A7f\u00A7f\u00A70\u00A70_
+    if you believe that this is in error.'
   kick:
-    flying-player: Flying is not enabled on this server
-    flying-vehicle: Flying is not enabled on this server
-    connection-throttle: Connection throttled! Please wait before reconnecting.
-    authentication-servers-down: ''
+    flying-player: \u00A7x\u00A7f\u00A7f\u00A70\u00A70\u00A70\u00A70F\u00A7x\u00A7f\u00A7f\u00A70\u00A79\u00A70\u00A70l\u00A7x\u00A7f\u00A7f\u00A71\u00A72\u00A70\u00A70y\u00A7x\u00A7f\u00A7f\u00A71\u00A7a\u00A70\u00A70i\u00A7x\u00A7f\u00A7f\u00A72\u00A73\u00A70\u00A70n\u00A7x\u00A7f\u00A7f\u00A72\u00A7c\u00A70\u00A70g
+      \u00A7x\u00A7f\u00A7f\u00A73\u00A75\u00A70\u00A70i\u00A7x\u00A7f\u00A7f\u00A73\u00A7d\u00A70\u00A70s
+      \u00A7x\u00A7f\u00A7f\u00A74\u00A76\u00A70\u00A70n\u00A7x\u00A7f\u00A7f\u00A74\u00A7f\u00A70\u00A70o\u00A7x\u00A7f\u00A7f\u00A75\u00A78\u00A70\u00A70t
+      \u00A7x\u00A7f\u00A7f\u00A76\u00A70\u00A70\u00A70e\u00A7x\u00A7f\u00A7f\u00A76\u00A79\u00A70\u00A70n\u00A7x\u00A7f\u00A7f\u00A77\u00A72\u00A70\u00A70a\u00A7x\u00A7f\u00A7f\u00A77\u00A7b\u00A70\u00A70b\u00A7x\u00A7f\u00A7f\u00A78\u00A73\u00A70\u00A70l\u00A7x\u00A7f\u00A7f\u00A78\u00A7c\u00A70\u00A70e\u00A7x\u00A7f\u00A7f\u00A79\u00A75\u00A70\u00A70d
+      \u00A7x\u00A7f\u00A7f\u00A79\u00A7e\u00A70\u00A70o\u00A7x\u00A7f\u00A7f\u00A7a\u00A77\u00A70\u00A70n
+      \u00A7x\u00A7f\u00A7f\u00A7b\u00A70\u00A70\u00A70t\u00A7x\u00A7f\u00A7f\u00A7b\u00A78\u00A70\u00A70h\u00A7x\u00A7f\u00A7f\u00A7c\u00A71\u00A70\u00A70i\u00A7x\u00A7f\u00A7f\u00A7c\u00A7a\u00A70\u00A70s
+      \u00A7x\u00A7f\u00A7f\u00A7d\u00A73\u00A70\u00A70s\u00A7x\u00A7f\u00A7f\u00A7d\u00A7c\u00A70\u00A70e\u00A7x\u00A7f\u00A7f\u00A7e\u00A75\u00A70\u00A70r\u00A7x\u00A7f\u00A7f\u00A7e\u00A7d\u00A70\u00A70v\u00A7x\u00A7f\u00A7f\u00A7f\u00A76\u00A70\u00A70e\u00A7x\u00A7f\u00A7f\u00A7f\u00A7f\u00A70\u00A70r
+    flying-vehicle: \u00A7x\u00A7f\u00A7f\u00A70\u00A70\u00A70\u00A70F\u00A7x\u00A7f\u00A7f\u00A70\u00A79\u00A70\u00A70l\u00A7x\u00A7f\u00A7f\u00A71\u00A72\u00A70\u00A70y\u00A7x\u00A7f\u00A7f\u00A71\u00A7a\u00A70\u00A70i\u00A7x\u00A7f\u00A7f\u00A72\u00A73\u00A70\u00A70n\u00A7x\u00A7f\u00A7f\u00A72\u00A7c\u00A70\u00A70g
+      \u00A7x\u00A7f\u00A7f\u00A73\u00A75\u00A70\u00A70i\u00A7x\u00A7f\u00A7f\u00A73\u00A7d\u00A70\u00A70s
+      \u00A7x\u00A7f\u00A7f\u00A74\u00A76\u00A70\u00A70n\u00A7x\u00A7f\u00A7f\u00A74\u00A7f\u00A70\u00A70o\u00A7x\u00A7f\u00A7f\u00A75\u00A78\u00A70\u00A70t
+      \u00A7x\u00A7f\u00A7f\u00A76\u00A70\u00A70\u00A70e\u00A7x\u00A7f\u00A7f\u00A76\u00A79\u00A70\u00A70n\u00A7x\u00A7f\u00A7f\u00A77\u00A72\u00A70\u00A70a\u00A7x\u00A7f\u00A7f\u00A77\u00A7b\u00A70\u00A70b\u00A7x\u00A7f\u00A7f\u00A78\u00A73\u00A70\u00A70l\u00A7x\u00A7f\u00A7f\u00A78\u00A7c\u00A70\u00A70e\u00A7x\u00A7f\u00A7f\u00A79\u00A75\u00A70\u00A70d
+      \u00A7x\u00A7f\u00A7f\u00A79\u00A7e\u00A70\u00A70o\u00A7x\u00A7f\u00A7f\u00A7a\u00A77\u00A70\u00A70n
+      \u00A7x\u00A7f\u00A7f\u00A7b\u00A70\u00A70\u00A70t\u00A7x\u00A7f\u00A7f\u00A7b\u00A78\u00A70\u00A70h\u00A7x\u00A7f\u00A7f\u00A7c\u00A71\u00A70\u00A70i\u00A7x\u00A7f\u00A7f\u00A7c\u00A7a\u00A70\u00A70s
+      \u00A7x\u00A7f\u00A7f\u00A7d\u00A73\u00A70\u00A70s\u00A7x\u00A7f\u00A7f\u00A7d\u00A7c\u00A70\u00A70e\u00A7x\u00A7f\u00A7f\u00A7e\u00A75\u00A70\u00A70r\u00A7x\u00A7f\u00A7f\u00A7e\u00A7d\u00A70\u00A70v\u00A7x\u00A7f\u00A7f\u00A7f\u00A76\u00A70\u00A70e\u00A7x\u00A7f\u00A7f\u00A7f\u00A7f\u00A70\u00A70r
+    connection-throttle: \u00A7x\u00A7f\u00A7f\u00A70\u00A70\u00A70\u00A70C\u00A7x\u00A7f\u00A7f\u00A70\u00A75\u00A70\u00A70o\u00A7x\u00A7f\u00A7f\u00A70\u00A7b\u00A70\u00A70n\u00A7x\u00A7f\u00A7f\u00A71\u00A70\u00A70\u00A70n\u00A7x\u00A7f\u00A7f\u00A71\u00A75\u00A70\u00A70e\u00A7x\u00A7f\u00A7f\u00A71\u00A7a\u00A70\u00A70c\u00A7x\u00A7f\u00A7f\u00A72\u00A70\u00A70\u00A70t\u00A7x\u00A7f\u00A7f\u00A72\u00A75\u00A70\u00A70i\u00A7x\u00A7f\u00A7f\u00A72\u00A7a\u00A70\u00A70o\u00A7x\u00A7f\u00A7f\u00A73\u00A70\u00A70\u00A70n
+      \u00A7x\u00A7f\u00A7f\u00A73\u00A75\u00A70\u00A70t\u00A7x\u00A7f\u00A7f\u00A73\u00A7a\u00A70\u00A70h\u00A7x\u00A7f\u00A7f\u00A74\u00A70\u00A70\u00A70r\u00A7x\u00A7f\u00A7f\u00A74\u00A75\u00A70\u00A70o\u00A7x\u00A7f\u00A7f\u00A74\u00A7a\u00A70\u00A70t\u00A7x\u00A7f\u00A7f\u00A74\u00A7f\u00A70\u00A70t\u00A7x\u00A7f\u00A7f\u00A75\u00A75\u00A70\u00A70l\u00A7x\u00A7f\u00A7f\u00A75\u00A7a\u00A70\u00A70e\u00A7x\u00A7f\u00A7f\u00A75\u00A7f\u00A70\u00A70d\u00A7x\u00A7f\u00A7f\u00A76\u00A75\u00A70\u00A70!
+      \u00A7x\u00A7f\u00A7f\u00A76\u00A7a\u00A70\u00A70P\u00A7x\u00A7f\u00A7f\u00A76\u00A7f\u00A70\u00A70l\u00A7x\u00A7f\u00A7f\u00A77\u00A74\u00A70\u00A70e\u00A7x\u00A7f\u00A7f\u00A77\u00A7a\u00A70\u00A70a\u00A7x\u00A7f\u00A7f\u00A77\u00A7f\u00A70\u00A70s\u00A7x\u00A7f\u00A7f\u00A78\u00A74\u00A70\u00A70e
+      \u00A7x\u00A7f\u00A7f\u00A78\u00A7a\u00A70\u00A70w\u00A7x\u00A7f\u00A7f\u00A78\u00A7f\u00A70\u00A70a\u00A7x\u00A7f\u00A7f\u00A79\u00A74\u00A70\u00A70i\u00A7x\u00A7f\u00A7f\u00A79\u00A7a\u00A70\u00A70t
+      \u00A7x\u00A7f\u00A7f\u00A79\u00A7f\u00A70\u00A70b\u00A7x\u00A7f\u00A7f\u00A7a\u00A74\u00A70\u00A70e\u00A7x\u00A7f\u00A7f\u00A7a\u00A7a\u00A70\u00A70f\u00A7x\u00A7f\u00A7f\u00A7a\u00A7f\u00A70\u00A70o\u00A7x\u00A7f\u00A7f\u00A7b\u00A74\u00A70\u00A70r\u00A7x\u00A7f\u00A7f\u00A7b\u00A7a\u00A70\u00A70e
+      \u00A7x\u00A7f\u00A7f\u00A7b\u00A7f\u00A70\u00A70r\u00A7x\u00A7f\u00A7f\u00A7c\u00A74\u00A70\u00A70e\u00A7x\u00A7f\u00A7f\u00A7c\u00A7a\u00A70\u00A70c\u00A7x\u00A7f\u00A7f\u00A7c\u00A7f\u00A70\u00A70o\u00A7x\u00A7f\u00A7f\u00A7d\u00A74\u00A70\u00A70n\u00A7x\u00A7f\u00A7f\u00A7d\u00A7a\u00A70\u00A70n\u00A7x\u00A7f\u00A7f\u00A7d\u00A7f\u00A70\u00A70e\u00A7x\u00A7f\u00A7f\u00A7e\u00A74\u00A70\u00A70c\u00A7x\u00A7f\u00A7f\u00A7e\u00A7a\u00A70\u00A70t\u00A7x\u00A7f\u00A7f\u00A7e\u00A7f\u00A70\u00A70i\u00A7x\u00A7f\u00A7f\u00A7f\u00A74\u00A70\u00A70n\u00A7x\u00A7f\u00A7f\u00A7f\u00A7a\u00A70\u00A70g\u00A7x\u00A7f\u00A7f\u00A7f\u00A7f\u00A70\u00A70.
+    authentication-servers-down: \u00A7x\u00A7f\u00A7f\u00A70\u00A70\u00A70\u00A70T\u00A7x\u00A7f\u00A7f\u00A70\u00A78\u00A70\u00A70h\u00A7x\u00A7f\u00A7f\u00A71\u00A70\u00A70\u00A70e
+      \u00A7x\u00A7f\u00A7f\u00A71\u00A79\u00A70\u00A70a\u00A7x\u00A7f\u00A7f\u00A72\u00A71\u00A70\u00A70u\u00A7x\u00A7f\u00A7f\u00A72\u00A79\u00A70\u00A70t\u00A7x\u00A7f\u00A7f\u00A73\u00A71\u00A70\u00A70h\u00A7x\u00A7f\u00A7f\u00A73\u00A79\u00A70\u00A70e\u00A7x\u00A7f\u00A7f\u00A74\u00A72\u00A70\u00A70n\u00A7x\u00A7f\u00A7f\u00A74\u00A7a\u00A70\u00A70t\u00A7x\u00A7f\u00A7f\u00A75\u00A72\u00A70\u00A70i\u00A7x\u00A7f\u00A7f\u00A75\u00A7a\u00A70\u00A70c\u00A7x\u00A7f\u00A7f\u00A76\u00A72\u00A70\u00A70a\u00A7x\u00A7f\u00A7f\u00A76\u00A7b\u00A70\u00A70t\u00A7x\u00A7f\u00A7f\u00A77\u00A73\u00A70\u00A70i\u00A7x\u00A7f\u00A7f\u00A77\u00A7b\u00A70\u00A70o\u00A7x\u00A7f\u00A7f\u00A78\u00A73\u00A70\u00A70n
+      \u00A7x\u00A7f\u00A7f\u00A78\u00A7b\u00A70\u00A70s\u00A7x\u00A7f\u00A7f\u00A79\u00A74\u00A70\u00A70e\u00A7x\u00A7f\u00A7f\u00A79\u00A7c\u00A70\u00A70r\u00A7x\u00A7f\u00A7f\u00A7a\u00A74\u00A70\u00A70v\u00A7x\u00A7f\u00A7f\u00A7a\u00A7c\u00A70\u00A70e\u00A7x\u00A7f\u00A7f\u00A7b\u00A75\u00A70\u00A70r\u00A7x\u00A7f\u00A7f\u00A7b\u00A7d\u00A70\u00A70s
+      \u00A7x\u00A7f\u00A7f\u00A7c\u00A75\u00A70\u00A70a\u00A7x\u00A7f\u00A7f\u00A7c\u00A7d\u00A70\u00A70r\u00A7x\u00A7f\u00A7f\u00A7d\u00A76\u00A70\u00A70e
+      \u00A7x\u00A7f\u00A7f\u00A7d\u00A7e\u00A70\u00A70d\u00A7x\u00A7f\u00A7f\u00A7e\u00A76\u00A70\u00A70o\u00A7x\u00A7f\u00A7f\u00A7e\u00A7e\u00A70\u00A70w\u00A7x\u00A7f\u00A7f\u00A7f\u00A77\u00A70\u00A70n\u00A7x\u00A7f\u00A7f\u00A7f\u00A7f\u00A70\u00A70.
 world-settings:
   default:
+    slime-spawn-height:
+      swamp-biome:
+        maximum: 70.0
+        minimum: 50.0
+      slime-chunk:
+        maximum: 40.0
     wateranimal-spawn-height:
       minimum: default
       maximum: default
@@ -129,10 +158,10 @@ world-settings:
     anticheat:
       obfuscation:
         items:
-          hide-itemmeta: false
-          hide-durability: false
-    disable-thunder: false
-    disable-ice-and-snow: false
+          hide-itemmeta: true
+          hide-durability: true
+    disable-thunder: true
+    disable-ice-and-snow: true
     keep-spawn-loaded-range: 10
     map-item-frame-cursor-limit: 128
     armor-stands-tick: true
@@ -140,8 +169,8 @@ world-settings:
     treasure-maps-return-already-discovered: false
     split-overstacked-loot: true
     all-chunks-are-slime-chunks: false
-    should-remove-dragon: false
-    optimize-explosions: false
+    should-remove-dragon: true
+    optimize-explosions: true
     experience-merge-max-value: -1
     piglins-guard-chests: true
     fixed-chunk-inhabited-time: -1
@@ -151,24 +180,24 @@ world-settings:
     max-entity-collisions: 8
     phantoms-do-not-spawn-on-creative-players: true
     phantoms-only-attack-insomniacs: true
-    fix-wither-targeting-bug: false
-    allow-using-signs-inside-spawn-protection: false
+    fix-wither-targeting-bug: true
+    allow-using-signs-inside-spawn-protection: true
     ender-dragons-death-always-places-dragon-egg: false
     non-player-arrow-despawn-rate: -1
     creative-arrow-despawn-rate: -1
     spawner-nerfed-mobs-should-jump: false
     entities-target-with-follow-range: false
     zombie-villager-infection-chance: -1.0
-    zombies-target-turtle-eggs: true
+    zombies-target-turtle-eggs: false
     delay-chunk-unloads-by: 10s
     count-all-mobs-for-spawning: false
-    prevent-moving-into-unloaded-chunks: false
+    prevent-moving-into-unloaded-chunks: true
     use-vanilla-world-scoreboard-name-coloring: false
     max-auto-save-chunks-per-tick: 24
     baby-zombie-movement-modifier: 0.5
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
-    disable-creeper-lingering-effect: false
+    disable-creeper-lingering-effect: true
     filter-nbt-data-from-spawn-eggs-and-related: true
     allow-player-cramming-damage: false
     map-item-frame-cursor-update-interval: 10
@@ -184,10 +213,10 @@ world-settings:
     portal-create-radius: 16
     portal-search-vanilla-dimension-scaling: true
     water-over-lava-flow-speed: 5
-    keep-spawn-loaded: true
+    keep-spawn-loaded: false
     disable-teleportation-suffocation-check: false
     show-sign-click-command-failure-msgs-to-player: false
-    use-faster-eigencraft-redstone: false
+    use-faster-eigencraft-redstone: true
     prevent-tnt-from-moving-in-water: false
     per-player-mob-spawns: true
     seed-based-feature-search: true
@@ -196,20 +225,20 @@ world-settings:
     allow-non-player-entities-on-scoreboards: false
     parrots-are-unaffected-by-player-movement: false
     disable-explosion-knockback: false
-    fix-items-merging-through-walls: false
-    fix-climbing-bypassing-cramming-rule: false
+    fix-items-merging-through-walls: true
+    fix-climbing-bypassing-cramming-rule: true
     armor-stands-do-collision-entity-lookups: true
-    skeleton-horse-thunder-spawn-chance: 0.01
+    skeleton-horse-thunder-spawn-chance: -1
     max-leash-distance: 10.0
     grass-spread-tick-rate: 1
     viewdistances:
       no-tick-view-distance: -1
     game-mechanics:
-      disable-end-credits: false
-      disable-mob-spawner-spawn-egg-transformation: false
+      disable-end-credits: true
+      disable-mob-spawner-spawn-egg-transformation: true
       fix-curing-zombie-villager-discount-exploit: true
       disable-pillager-patrols: false
-      scan-for-legacy-ender-dragon: true
+      scan-for-legacy-ender-dragon: false
       disable-relative-projectile-velocity: false
       disable-unloaded-chunk-enderpearl-exploit: true
       disable-player-crits: false
@@ -226,7 +255,7 @@ world-settings:
           per-player: false
           day: 5
     generator-settings:
-      flat-bedrock: false
+      flat-bedrock: true
     squid-spawn-height:
       maximum: 0.0
     fishing-time-range:
@@ -264,7 +293,7 @@ world-settings:
         soft: 32
         hard: 128
     frosted-ice:
-      enabled: true
+      enabled: false
       delay:
         min: 20
         max: 40
@@ -325,15 +354,15 @@ world-settings:
       zombies: false
       skeletons: false
     hopper:
-      cooldown-when-full: true
-      disable-move-event: false
+      cooldown-when-full: false
+      disable-move-event: true
       ignore-occluding-blocks: true
     feature-seeds:
       generate-random-seeds-for-all: false
     anti-xray:
-      enabled: false
-      engine-mode: 1
-      max-block-height: 64
+      enabled: true
+      engine-mode: 2
+      max-block-height: 80
       update-radius: 2
       lava-obscures: false
       use-permission: false

@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2022-02-26 19:49:52 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_stained_glass": {
     "criteria": {
       "has_glass": "2022-01-13 16:42:35 +0100"
@@ -293,6 +299,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2022-02-26 19:49:52 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2021-12-06 13:29:32 +0100"
@@ -374,6 +386,12 @@
   "minecraft:recipes/building_blocks/yellow_wool": {
     "criteria": {
       "has_white_wool": "2021-12-06 11:16:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_redstone_ore": {
+    "criteria": {
+      "has_redstone_ore": "2022-02-26 19:54:18 +0100"
     },
     "done": true
   },
@@ -688,6 +706,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2022-02-26 19:52:32 +0100",
       "minecraft:spider": "2021-12-06 12:04:43 +0100",
       "minecraft:creeper": "2021-12-06 13:28:10 +0100",
       "minecraft:zombie": "2021-12-06 13:28:21 +0100"
@@ -787,6 +806,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2021-12-06 13:28:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_redstone_ore": {
+    "criteria": {
+      "has_redstone_ore": "2022-02-26 19:54:18 +0100"
     },
     "done": true
   },
