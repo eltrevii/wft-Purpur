@@ -1,213 +1,259 @@
-[20:42:42] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:42:42] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
-[20:42:42] [Worker-Main-5/INFO]: Loaded 7 recipes
-[20:42:44] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[20:42:44] [Server thread/INFO]: Loading properties
-[20:42:44] [Server thread/INFO]: This server is running Purpur version git-Purpur-1565 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: ea44ea1 on HEAD)
-[20:42:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:42:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:42:44] [Server thread/WARN]: [Pufferfish] To improve performance, timings have been disabled by default
-[20:42:44] [Server thread/WARN]: [Pufferfish] You can still use timings by using /timings on, but they will not start on server startup unless you set timings.really-enabled to true in paper.yml
-[20:42:44] [Server thread/WARN]: [Pufferfish] If you would like to disable this message, either set timings.really-enabled to true or timings.enabled to false.
-[20:42:44] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
-[20:42:44] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
-[20:42:44] [Server thread/INFO]: Default game type: CREATIVE
-[20:42:44] [Server thread/INFO]: Generating keypair
-[20:42:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:42:44] [Server thread/INFO]: Using default channel type
-[20:42:44] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[20:42:44] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:42:44] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_18_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[20:42:47] [Server thread/WARN]: Legacy plugin FullServerJoin v1.4 does not specify an api-version.
-[20:42:47] [Server thread/INFO]: [FullServerJoin] Loading FullServerJoin v1.4
-[20:42:47] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.1.1
-[20:42:47] [Server thread/INFO]: [ViaVersion] ViaVersion 4.1.1 is now loaded, injecting!
-[20:42:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[20:42:47] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[20:42:47] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[20:42:47] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[20:42:47] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[20:42:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:42:47] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[20:42:47] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
-[20:42:47] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
-[20:42:47] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.0.0
-[20:42:47] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[20:42:47] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
-[20:42:47] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
-[20:42:47] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
-[20:42:47] [Via-Mappingloader-2/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_12_2To1_13
-[20:42:47] [Via-Mappingloader-2/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[20:42:47] [Via-Mappingloader-2/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.protocol.protocol1_12_2to1_13.Protocol1_12_2To1_13.lambda$registerPackets$0(Protocol1_12_2To1_13.java:60)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:451)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	... 5 more
-[20:42:47] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
-[20:42:47] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
-[20:42:47] [Via-Mappingloader-2/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_13_2To1_14
-[20:42:47] [Via-Mappingloader-2/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[20:42:47] [Via-Mappingloader-2/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at ViaVersion-4.1.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:451)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
-[20:42:47] [Via-Mappingloader-2/WARN]: 	... 5 more
-[20:42:47] [Server thread/ERROR]: [org.bukkit.craftbukkit.v1_18_R1.CraftServer] Load factor must be greater than 0 and smaller than 1 initializing ViaBackwards v4.0.0 (Is it up to date?)
+[16:17:25] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:17:26] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[16:17:26] [Worker-Main-4/INFO]: Loaded 7 recipes
+[16:17:27] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[16:17:27] [Server thread/INFO]: Loading properties
+[16:17:27] [Server thread/INFO]: This server is running Purpur version git-Purpur-1566 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 133b3e1 on HEAD)
+[16:17:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:17:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:17:27] [Server thread/WARN]: [Pufferfish] To improve performance, timings have been disabled by default
+[16:17:27] [Server thread/WARN]: [Pufferfish] You can still use timings by using /timings on, but they will not start on server startup unless you set timings.really-enabled to true in paper.yml
+[16:17:27] [Server thread/WARN]: [Pufferfish] If you would like to disable this message, either set timings.really-enabled to true or timings.enabled to false.
+[16:17:27] [Server thread/INFO]: [Pufferfish] SIMD operations detected as functional. Will replace some operations with faster versions.
+[16:17:27] [Server thread/INFO]: Default game type: CREATIVE
+[16:17:27] [Server thread/INFO]: Generating keypair
+[16:17:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:17:27] [Server thread/INFO]: Using default channel type
+[16:17:27] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[16:17:27] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[16:17:28] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_18_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[16:17:30] [Server thread/WARN]: Legacy plugin FullServerJoin v1.4 does not specify an api-version.
+[16:17:30] [Server thread/INFO]: [FullServerJoin] Loading FullServerJoin v1.4
+[16:17:30] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.2.1
+[16:17:30] [Server thread/INFO]: [ViaVersion] ViaVersion 4.2.1 is now loaded, injecting!
+[16:17:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[16:17:30] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[16:17:30] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[16:17:30] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[16:17:30] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[16:17:30] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[16:17:30] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[16:17:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:17:30] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[16:17:30] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.0.0
+[16:17:30] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[16:17:31] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[16:17:31] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[16:17:31] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[16:17:31] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[16:17:31] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[16:17:31] [Via-Mappingloader-0/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_12_2To1_13
+[16:17:31] [Via-Mappingloader-0/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[16:17:31] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+[16:17:31] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+[16:17:31] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
+[16:17:31] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+[16:17:31] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[16:17:31] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[16:17:31] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[16:17:31] [Via-Mappingloader-0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[16:17:31] [Via-Mappingloader-0/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[16:17:31] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
+[16:17:31] [Via-Mappingloader-0/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
+[16:17:31] [Via-Mappingloader-0/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
+[16:17:31] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
+[16:17:31] [Via-Mappingloader-0/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.protocol.protocol1_12_2to1_13.Protocol1_12_2To1_13.lambda$registerPackets$0(Protocol1_12_2To1_13.java:60)
+[16:17:31] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:453)
+[16:17:31] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+[16:17:31] [Via-Mappingloader-0/WARN]: 	... 5 more
+[16:17:31] [Via-Mappingloader-5/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_13_2To1_14
+[16:17:31] [Via-Mappingloader-5/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[16:17:31] [Via-Mappingloader-5/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+[16:17:31] [Via-Mappingloader-5/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+[16:17:31] [Via-Mappingloader-5/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
+[16:17:31] [Via-Mappingloader-5/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+[16:17:31] [Via-Mappingloader-5/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[16:17:31] [Via-Mappingloader-5/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[16:17:31] [Via-Mappingloader-5/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[16:17:31] [Via-Mappingloader-5/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[16:17:31] [Via-Mappingloader-5/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[16:17:31] [Via-Mappingloader-5/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
+[16:17:31] [Via-Mappingloader-5/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
+[16:17:31] [Via-Mappingloader-5/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
+[16:17:31] [Via-Mappingloader-5/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
+[16:17:31] [Via-Mappingloader-5/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:453)
+[16:17:31] [Via-Mappingloader-5/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+[16:17:31] [Via-Mappingloader-5/WARN]: 	... 5 more
+[16:17:31] [Server thread/ERROR]: [org.bukkit.craftbukkit.v1_18_R1.CraftServer] Load factor must be greater than 0 and smaller than 1 initializing ViaBackwards v4.0.0 (Is it up to date?)
 java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
-	at com.viaversion.viaversion.libs.fastutil.ints.Int2IntOpenHashMap.<init>(Int2IntOpenHashMap.java:101) ~[ViaVersion-4.1.1.jar:?]
+	at com.viaversion.viaversion.libs.fastutil.ints.Int2IntOpenHashMap.<init>(Int2IntOpenHashMap.java:101) ~[ViaVersion-4.2.1.jar:?]
 	at com.viaversion.viabackwards.api.rewriters.EntityRewriterBase.mapTypes(EntityRewriterBase.java:150) ~[ViaBackwards-4.0.0.jar:?]
 	at com.viaversion.viabackwards.protocol.protocol1_13_2to1_14.packets.EntityPackets1_14.registerRewrites(EntityPackets1_14.java:348) ~[ViaBackwards-4.0.0.jar:?]
-	at com.viaversion.viaversion.api.rewriter.RewriterBase.register(RewriterBase.java:37) ~[ViaVersion-4.1.1.jar:?]
+	at com.viaversion.viaversion.api.rewriter.RewriterBase.register(RewriterBase.java:37) ~[ViaVersion-4.2.1.jar:?]
 	at com.viaversion.viabackwards.protocol.protocol1_13_2to1_14.Protocol1_13_2To1_14.registerPackets(Protocol1_13_2To1_14.java:72) ~[ViaBackwards-4.0.0.jar:?]
-	at com.viaversion.viaversion.api.protocol.AbstractProtocol.initialize(AbstractProtocol.java:76) ~[ViaVersion-4.1.1.jar:?]
-	at com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:182) ~[ViaVersion-4.1.1.jar:?]
-	at com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:176) ~[ViaVersion-4.1.1.jar:?]
+	at com.viaversion.viaversion.api.protocol.AbstractProtocol.initialize(AbstractProtocol.java:76) ~[ViaVersion-4.2.1.jar:?]
+	at com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:184) ~[ViaVersion-4.2.1.jar:?]
+	at com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:178) ~[ViaVersion-4.2.1.jar:?]
 	at com.viaversion.viabackwards.api.ViaBackwardsPlatform.init(ViaBackwardsPlatform.java:90) ~[ViaBackwards-4.0.0.jar:?]
 	at com.viaversion.viabackwards.BukkitPlugin.init(BukkitPlugin.java:48) ~[ViaBackwards-4.0.0.jar:?]
 	at com.viaversion.viabackwards.BukkitPlugin.onLoad(BukkitPlugin.java:36) ~[ViaBackwards-4.0.0.jar:?]
-	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.loadPlugins(CraftServer.java:426) ~[purpur-1.18.1.jar:git-Purpur-1565]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:320) ~[purpur-1.18.1.jar:git-Purpur-1565]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1227) ~[purpur-1.18.1.jar:git-Purpur-1565]
-	at net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322) ~[purpur-1.18.1.jar:git-Purpur-1565]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.loadPlugins(CraftServer.java:426) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:320) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1227) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322) ~[purpur-1.18.1.jar:git-Purpur-1566]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[20:42:47] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.0
-[20:42:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:42:47] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.0
-[20:42:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:42:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:42:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:42:48] [Server thread/WARN]: You will not be offered any support as long as the server allows offline-mode players to join.
-[20:42:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:42:48] [Server thread/INFO]: Preparing level "world"
-[20:42:48] [Server thread/INFO]: -------- World Settings For [world] --------
-[20:42:48] [Server thread/INFO]: View Distance: 10
-[20:42:48] [Server thread/INFO]: Simulation Distance: 10
-[20:42:48] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:42:48] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:42:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:42:48] [Server thread/INFO]: Mob Spawn Range: 8
-[20:42:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:42:48] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:42:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:42:48] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:42:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:42:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[20:42:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:42:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[20:42:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:42:48] [Server thread/INFO]: Max TNT Explosions: 100
-[20:42:48] [Server thread/INFO]: -------- World Settings For [world] --------
-[20:42:48] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[20:42:48] [Server thread/INFO]: View Distance: 10
-[20:42:48] [Server thread/INFO]: Simulation Distance: 10
-[20:42:48] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:42:48] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:42:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:42:48] [Server thread/INFO]: Mob Spawn Range: 8
-[20:42:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:42:48] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:42:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:42:48] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:42:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
-[20:42:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:42:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[20:42:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:42:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[20:42:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:42:48] [Server thread/INFO]: Max TNT Explosions: 100
-[20:42:48] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[20:42:48] [Server thread/INFO]: [FullServerJoin] Enabling FullServerJoin v1.4*
-[20:42:48] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.1.1
-[20:42:48] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.0.0
-[20:42:48] [Server thread/INFO]: Starting GS4 status listener
-[20:42:48] [Server thread/INFO]: Thread Query Listener started
-[20:42:48] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[20:42:48] [Server thread/INFO]: Running delayed init tasks
-[20:42:48] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18 (757)
-[20:42:48] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
-[20:42:48] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
-[20:42:48] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
-[20:42:48] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://jo0001.github.io/ViaSetup
-[20:42:48] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
-[20:42:48] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[20:42:48] [Server thread/INFO]: Done (4.797s)! For help, type "help"
-[20:42:48] [Server thread/INFO]: Timings Reset
-[21:00:50] [Server thread/INFO]: Stopping the server
-[21:00:50] [Server thread/INFO]: Stopping server
-[21:00:50] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.0
-[21:00:50] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.0.0
-[21:00:50] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.1.1
-[21:00:50] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[21:00:50] [Server thread/INFO]: [FullServerJoin] Disabling FullServerJoin v1.4
-[21:00:50] [Server thread/INFO]: Saving players
-[21:00:50] [Server thread/INFO]: Saving worlds
-[21:00:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:00:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:00:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:00:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:00:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:00:50] [Server thread/INFO]: Flushing Chunk IO
-[21:00:50] [Server thread/INFO]: Closing Thread Pool
-[21:00:50] [Server thread/INFO]: Closing Server
+[16:17:31] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.0
+[16:17:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:17:31] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.0
+[16:17:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:17:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:17:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:17:31] [Server thread/WARN]: You will not be offered any support as long as the server allows offline-mode players to join.
+[16:17:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:17:31] [Server thread/INFO]: Preparing level "world"
+[16:17:31] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:17:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:17:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:17:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:17:31] [Server thread/INFO]: Simulation Distance: 10
+[16:17:31] [Server thread/INFO]: View Distance: 10
+[16:17:31] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:17:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:17:31] [Server thread/INFO]: Mob Spawn Range: 8
+[16:17:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:17:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:17:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:17:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:17:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:17:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:17:31] [Server thread/INFO]: Max TNT Explosions: 100
+[16:17:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:17:31] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:17:31] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:17:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:17:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:17:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:17:31] [Server thread/INFO]: Simulation Distance: 10
+[16:17:31] [Server thread/INFO]: View Distance: 10
+[16:17:31] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:17:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:17:31] [Server thread/INFO]: Mob Spawn Range: 8
+[16:17:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:17:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:17:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[16:17:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:17:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:17:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:17:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:17:31] [Server thread/INFO]: Max TNT Explosions: 100
+[16:17:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:17:31] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:17:31] [Server thread/INFO]: [FullServerJoin] Enabling FullServerJoin v1.4*
+[16:17:31] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.2.1
+[16:17:31] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.0.0
+[16:17:31] [Server thread/INFO]: Starting GS4 status listener
+[16:17:32] [Server thread/INFO]: Thread Query Listener started
+[16:17:32] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[16:17:32] [Server thread/INFO]: Running delayed init tasks
+[16:17:32] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18/1.18.1 (757)
+[16:17:32] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[16:17:32] [Server thread/INFO]: Done (4.766s)! For help, type "help"
+[16:17:32] [Server thread/INFO]: Timings Reset
+[16:17:32] [User Authenticator #1/INFO]: UUID of player aritz331_ is f878090c-42dc-3ff0-b26f-4ab19e0244d4
+[16:17:35] [Server thread/INFO]: aritz331_ joined the game
+[16:17:35] [Server thread/INFO]: aritz331_[/127.0.0.1:52344] logged in with entity id 1 at ([world]141.5, 65.0, 128.5)
+[16:17:37] [Server thread/INFO]: aritz331_ issued server command: /ss
+[16:18:01] [Server thread/INFO]: aritz331_ issued server command: /summon tnt
+[16:18:01] [Server thread/INFO]: [aritz331_: Summoned new Primed TNT]
+[16:18:03] [Server thread/INFO]: aritz331_ issued server command: /summon tnt
+[16:18:03] [Server thread/INFO]: [aritz331_: Summoned new Primed TNT]
+[16:18:04] [Server thread/INFO]: aritz331_ issued server command: /summon tnt
+[16:18:04] [Server thread/INFO]: [aritz331_: Summoned new Primed TNT]
+[16:18:05] [Server thread/INFO]: aritz331_ issued server command: /summon tnt
+[16:18:05] [Server thread/INFO]: [aritz331_: Summoned new Primed TNT]
+[16:18:28] [Server thread/INFO]: aritz331_ issued server command: /summon minecraft:tnt_minecart
+[16:18:28] [Server thread/INFO]: [aritz331_: Summoned new Minecart with TNT]
+[16:18:32] [Server thread/INFO]: aritz331_ issued server command: /summon minecraft:tnt_minecart
+[16:18:32] [Server thread/INFO]: [aritz331_: Summoned new Minecart with TNT]
+[16:20:34] [Server thread/INFO]: aritz331_ issued server command: /give @s minecraft:command_block
+[16:20:34] [Server thread/INFO]: [aritz331_: Gave 1 [Command Block] to aritz331_]
+[16:21:49] [Server thread/INFO]: aritz331_ issued server command: /give @s minecraft:snowball
+[16:21:49] [Server thread/INFO]: [aritz331_: Gave 1 [Snowball] to aritz331_]
+[16:23:07] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player
+[16:23:08] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[16:23:08] [Server thread/INFO]: Villager EntityVillager['Villager'/8969, uuid='a1c87bd8-3828-4dd2-a5b5-19293748ea03', l='ServerLevel[world]', x=385.93, y=86.00, z=303.37, cpos=[24, 18], tl=0, v=true] died, message: 'Villager fell out of the world'
+[16:23:08] [Server thread/INFO]: Villager EntityVillager['Villager'/8972, uuid='0c844e07-6b41-4226-a09a-1cc82aab06e4', l='ServerLevel[world]', x=390.28, y=86.00, z=302.37, cpos=[24, 18], tl=0, v=true] died, message: 'Villager fell out of the world'
+[16:23:08] [Server thread/INFO]: Villager EntityVillager['Villager'/8974, uuid='0218a24c-cfaa-4938-85be-25d479d035dc', l='ServerLevel[world]', x=394.63, y=69.00, z=326.93, cpos=[24, 20], tl=0, v=true] died, message: 'Villager fell out of the world'
+[16:23:08] [Server thread/INFO]: [aritz331_: Killed 1754 entities]
+[16:24:36] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[16:24:36] [Server thread/INFO]: [aritz331_: Killed 4505 entities]
+[16:25:28] [Server thread/INFO]: aritz331_ issued server command: /give @s minecraft:ender_eye
+[16:25:28] [Server thread/INFO]: [aritz331_: Gave 1 [Eye of Ender] to aritz331_]
+[16:25:48] [Server thread/INFO]: aritz331_ issued server command: /give @s minecraft:ender_eye
+[16:25:48] [Server thread/INFO]: [aritz331_: Gave 1 [Eye of Ender] to aritz331_]
+[16:25:49] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[16:25:49] [Server thread/INFO]: [aritz331_: Killed 179 entities]
+[16:26:02] [Server thread/INFO]: aritz331_ issued server command: /gamemode spectator
+[16:26:02] [Server thread/INFO]: [aritz331_: Set own game mode to Spectator Mode]
+[16:26:07] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[16:26:07] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[16:26:30] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[16:26:30] [Server thread/INFO]: [aritz331_: Killed 1979 entities]
+[16:26:40] [Server thread/INFO]: aritz331_ issued server command: /gamemode spectator
+[16:26:40] [Server thread/INFO]: [aritz331_: Set own game mode to Spectator Mode]
+[16:26:46] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[16:26:46] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[16:27:22] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[16:27:22] [Server thread/INFO]: [aritz331_: Killed 1470 entities]
+[16:28:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
+[16:28:49] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[16:28:49] [Server thread/INFO]: [aritz331_: Killed 1911 entities]
+[16:29:05] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[16:29:05] [Server thread/INFO]: [aritz331_: Killed 858 entities]
+[16:29:08] [Server thread/INFO]: aritz331_ lost connection: Disconnected
+[16:29:08] [Server thread/INFO]: aritz331_ left the game
+[16:29:46] [Server thread/INFO]: Stopping the server
+[16:29:46] [Server thread/INFO]: Stopping server
+[16:29:46] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.0
+[16:29:46] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.0.0
+[16:29:46] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.2.1
+[16:29:46] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[16:29:46] [Server thread/INFO]: [FullServerJoin] Disabling FullServerJoin v1.4
+[16:29:46] [Server thread/INFO]: Saving players
+[16:29:46] [Server thread/INFO]: Saving worlds
+[16:29:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:29:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:29:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:29:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:29:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:29:47] [Server thread/INFO]: Flushing Chunk IO
+[16:29:47] [Server thread/INFO]: Closing Thread Pool
