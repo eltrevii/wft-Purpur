@@ -299,6 +299,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2022-03-03 19:26:44 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_sand": "2022-03-03 16:17:51 +0100"
@@ -320,6 +326,12 @@
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2021-12-06 11:16:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2022-03-03 19:22:33 +0100"
     },
     "done": true
   },
@@ -588,6 +600,7 @@
       "minecraft:windswept_hills": "2021-12-06 11:34:54 +0100",
       "minecraft:beach": "2021-12-06 13:36:22 +0100",
       "minecraft:river": "2021-12-06 11:34:53 +0100",
+      "minecraft:dripstone_caves": "2022-03-03 18:46:47 +0100",
       "minecraft:forest": "2021-12-06 11:15:36 +0100",
       "minecraft:windswept_forest": "2021-12-06 11:35:42 +0100",
       "minecraft:ocean": "2021-12-06 12:04:40 +0100",
@@ -726,6 +739,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2021-12-06 11:35:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2022-03-03 19:27:45 +0100"
     },
     "done": true
   },

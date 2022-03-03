@@ -1,80 +1,80 @@
-[17:06:56] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:06:56] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
-[17:06:57] [Worker-Main-4/INFO]: Loaded 7 recipes
-[17:06:58] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[17:06:58] [Server thread/INFO]: Loading properties
-[17:06:58] [Server thread/INFO]: This server is running Purpur version git-Purpur-1566 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 133b3e1 on HEAD)
-[17:06:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:06:58] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:06:58] [Server thread/WARN]: [Pufferfish] To improve performance, timings have been disabled by default
-[17:06:58] [Server thread/WARN]: [Pufferfish] You can still use timings by using /timings on, but they will not start on server startup unless you set timings.really-enabled to true in paper.yml
-[17:06:58] [Server thread/WARN]: [Pufferfish] If you would like to disable this message, either set timings.really-enabled to true or timings.enabled to false.
-[17:06:58] [Server thread/INFO]: [Pufferfish] SIMD operations detected as functional. Will replace some operations with faster versions.
-[17:06:58] [Server thread/INFO]: Default game type: CREATIVE
-[17:06:58] [Server thread/INFO]: Generating keypair
-[17:06:58] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:06:58] [Server thread/INFO]: Using default channel type
-[17:06:58] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[17:06:58] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[17:06:58] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_18_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[17:07:01] [Server thread/WARN]: Legacy plugin FullServerJoin v1.4 does not specify an api-version.
-[17:07:01] [Server thread/INFO]: [FullServerJoin] Loading FullServerJoin v1.4
-[17:07:01] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.2.1
-[17:07:01] [Server thread/INFO]: [ViaVersion] ViaVersion 4.2.1 is now loaded, injecting!
-[17:07:01] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[17:07:01] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[17:07:01] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[17:07:01] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[17:07:01] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[17:07:01] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[17:07:01] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
-[17:07:01] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
-[17:07:01] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.0.0
-[17:07:01] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[17:07:01] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[17:07:01] [Via-Mappingloader-8/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
-[17:07:01] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
-[17:07:01] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
-[17:07:01] [Via-Mappingloader-0/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_12_2To1_13
-[17:07:01] [Via-Mappingloader-0/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[17:07:01] [Via-Mappingloader-0/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.protocol.protocol1_12_2to1_13.Protocol1_12_2To1_13.lambda$registerPackets$0(Protocol1_12_2To1_13.java:60)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:453)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	... 5 more
-[17:07:01] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
-[17:07:01] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
-[17:07:01] [Via-Mappingloader-0/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_13_2To1_14
-[17:07:01] [Via-Mappingloader-0/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[17:07:01] [Via-Mappingloader-0/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:453)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
-[17:07:01] [Via-Mappingloader-0/WARN]: 	... 5 more
-[17:07:02] [Server thread/ERROR]: [org.bukkit.craftbukkit.v1_18_R1.CraftServer] Load factor must be greater than 0 and smaller than 1 initializing ViaBackwards v4.0.0 (Is it up to date?)
+[18:07:11] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:07:11] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[18:07:11] [Worker-Main-4/INFO]: Loaded 7 recipes
+[18:07:12] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[18:07:12] [Server thread/INFO]: Loading properties
+[18:07:12] [Server thread/INFO]: This server is running Purpur version git-Purpur-1566 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 133b3e1 on HEAD)
+[18:07:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:07:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:07:12] [Server thread/WARN]: [Pufferfish] To improve performance, timings have been disabled by default
+[18:07:12] [Server thread/WARN]: [Pufferfish] You can still use timings by using /timings on, but they will not start on server startup unless you set timings.really-enabled to true in paper.yml
+[18:07:12] [Server thread/WARN]: [Pufferfish] If you would like to disable this message, either set timings.really-enabled to true or timings.enabled to false.
+[18:07:13] [Server thread/INFO]: [Pufferfish] SIMD operations detected as functional. Will replace some operations with faster versions.
+[18:07:13] [Server thread/INFO]: Default game type: CREATIVE
+[18:07:13] [Server thread/INFO]: Generating keypair
+[18:07:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:07:13] [Server thread/INFO]: Using default channel type
+[18:07:13] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[18:07:13] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:07:13] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_18_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:07:15] [Server thread/WARN]: Legacy plugin FullServerJoin v1.4 does not specify an api-version.
+[18:07:16] [Server thread/INFO]: [FullServerJoin] Loading FullServerJoin v1.4
+[18:07:16] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.2.1
+[18:07:16] [Server thread/INFO]: [ViaVersion] ViaVersion 4.2.1 is now loaded, injecting!
+[18:07:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[18:07:16] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[18:07:16] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[18:07:16] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[18:07:16] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[18:07:16] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[18:07:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:07:16] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[18:07:16] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[18:07:16] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.0.0
+[18:07:16] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:07:16] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[18:07:16] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[18:07:16] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[18:07:16] [Via-Mappingloader-0/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_12_2To1_13
+[18:07:16] [Via-Mappingloader-0/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:07:16] [Via-Mappingloader-0/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.protocol.protocol1_12_2to1_13.Protocol1_12_2To1_13.lambda$registerPackets$0(Protocol1_12_2To1_13.java:60)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:453)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	... 5 more
+[18:07:16] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[18:07:16] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[18:07:16] [Via-Mappingloader-0/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_13_2To1_14
+[18:07:16] [Via-Mappingloader-0/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:07:16] [Via-Mappingloader-0/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:453)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+[18:07:16] [Via-Mappingloader-0/WARN]: 	... 5 more
+[18:07:16] [Server thread/ERROR]: [org.bukkit.craftbukkit.v1_18_R1.CraftServer] Load factor must be greater than 0 and smaller than 1 initializing ViaBackwards v4.0.0 (Is it up to date?)
 java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
 	at com.viaversion.viaversion.libs.fastutil.ints.Int2IntOpenHashMap.<init>(Int2IntOpenHashMap.java:101) ~[ViaVersion-4.2.1.jar:?]
 	at com.viaversion.viabackwards.api.rewriters.EntityRewriterBase.mapTypes(EntityRewriterBase.java:150) ~[ViaBackwards-4.0.0.jar:?]
@@ -92,640 +92,852 @@ java.lang.IllegalArgumentException: Load factor must be greater than 0 and small
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1227) ~[purpur-1.18.1.jar:git-Purpur-1566]
 	at net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322) ~[purpur-1.18.1.jar:git-Purpur-1566]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[17:07:02] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.0
-[17:07:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:07:02] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.0
-[17:07:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:07:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:07:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:07:02] [Server thread/WARN]: You will not be offered any support as long as the server allows offline-mode players to join.
-[17:07:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:07:02] [Server thread/INFO]: Preparing level "world"
-[17:07:02] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:07:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:07:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:07:02] [Server thread/INFO]: View Distance: 10
-[17:07:02] [Server thread/INFO]: Simulation Distance: 10
-[17:07:02] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:07:02] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:07:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:07:02] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:07:02] [Server thread/INFO]: Mob Spawn Range: 8
-[17:07:02] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:07:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[17:07:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:07:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:07:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:07:02] [Server thread/INFO]: Max TNT Explosions: 100
-[17:07:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:07:02] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:07:02] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:07:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:07:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:07:02] [Server thread/INFO]: View Distance: 10
-[17:07:02] [Server thread/INFO]: Simulation Distance: 10
-[17:07:02] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:07:02] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:07:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:07:02] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:07:02] [Server thread/INFO]: Mob Spawn Range: 8
-[17:07:02] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:07:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
-[17:07:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[17:07:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:07:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:07:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:07:02] [Server thread/INFO]: Max TNT Explosions: 100
-[17:07:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:07:02] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:07:02] [Server thread/INFO]: [FullServerJoin] Enabling FullServerJoin v1.4*
-[17:07:02] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.2.1
-[17:07:02] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.0.0
-[17:07:02] [Server thread/INFO]: Starting GS4 status listener
-[17:07:02] [Server thread/INFO]: Thread Query Listener started
-[17:07:02] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[17:07:02] [Server thread/INFO]: Running delayed init tasks
-[17:07:02] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18/1.18.1 (757)
-[17:07:02] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[17:07:02] [Server thread/INFO]: Done (4.740s)! For help, type "help"
-[17:07:02] [Server thread/INFO]: Timings Reset
-[17:07:04] [Server thread/INFO]: An entity is required to run this command here
-[17:07:08] [User Authenticator #1/INFO]: UUID of player aritz331_ is f878090c-42dc-3ff0-b26f-4ab19e0244d4
-[17:07:09] [Server thread/INFO]: aritz331_ joined the game
-[17:07:09] [Server thread/INFO]: aritz331_[/127.0.0.1:57433] logged in with entity id 1 at ([world]131.74531116609518, 65.0, 99.61575012257924)
-[17:07:09] [Server thread/INFO]: An entity is required to run this command here
-[17:07:12] [Server thread/INFO]: An entity is required to run this command here
-[17:07:12] [Server thread/INFO]: An entity is required to run this command here
-[17:07:15] [Server thread/INFO]: An entity is required to run this command here
-[17:07:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5652ms or 113 ticks behind
-[17:07:25] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1566 (MC: 1.18.1) ---
-[17:07:25] [Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[17:07:25] [Watchdog Thread/ERROR]: ------------------------------
-[17:07:25] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
-[17:07:25] [Watchdog Thread/ERROR]: Ticking entity: minecraft:armor_stand, entity class: net.minecraft.world.entity.decoration.EntityArmorStand
-[17:07:25] [Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[17:07:25] [Watchdog Thread/ERROR]: Entity UUID: a98f2438-7013-4a82-9ab8-49a2bcfd2c37
-[17:07:25] [Watchdog Thread/ERROR]: Position: world: 'world' at location (131.74531116609518, 65.0, 99.61575012257924)
-[17:07:25] [Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
-[17:07:25] [Watchdog Thread/ERROR]: Entity AABB: AABB[131.49531116609518, 65.0, 99.36575012257924] -> [131.99531116609518, 66.97500002384186, 99.86575012257924]
-[17:07:25] [Watchdog Thread/ERROR]: ------------------------------
-[17:07:25] [Watchdog Thread/ERROR]: Current Thread: Server thread
-[17:07:25] [Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: RUNNABLE
-[17:07:25] [Watchdog Thread/ERROR]: 	Stack:
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.LevelReader.hasChunksAt(LevelReader.java:204)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.LevelReader.hasChunksAt(LevelReader.java:192)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.LevelReader.hasChunksAt(LevelReader.java:186)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.checkInsideBlocks(Entity.java:1437)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.tryCheckInsideBlocks(Entity.java:1183)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.move(Entity.java:1110)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.a(ArmorStand.java:990)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.handleRelativeFrictionAndCalculateMovement(LivingEntity.java:2898)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.travel(LivingEntity.java:2853)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.travel(ArmorStand.java:662)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3391)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.w_(ArmorStand.java:1012)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3001)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.tick(ArmorStand.java:697)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1221)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.lambda$tick$5(ServerLevel.java:698)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$5264/0x000000080188e570.accept(Unknown Source)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:43)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:676)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1645)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1507)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1294)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
-[17:07:25] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4014/0x0000000801482aa0.run(Unknown Source)
-[17:07:25] [Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
-[17:07:25] [Watchdog Thread/ERROR]: ------------------------------
-[17:07:25] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
-[17:07:25] [Watchdog Thread/ERROR]: ------------------------------
-[17:07:30] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1566 (MC: 1.18.1) ---
-[17:07:30] [Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
-[17:07:30] [Watchdog Thread/ERROR]: ------------------------------
-[17:07:30] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
-[17:07:30] [Watchdog Thread/ERROR]: Ticking entity: minecraft:armor_stand, entity class: net.minecraft.world.entity.decoration.EntityArmorStand
-[17:07:30] [Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[17:07:30] [Watchdog Thread/ERROR]: Entity UUID: dcd01273-04a2-42e1-98a0-ac3e3f3c6d5e
-[17:07:30] [Watchdog Thread/ERROR]: Position: world: 'world' at location (131.74531116609518, 65.0, 99.61575012257924)
-[17:07:30] [Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
-[17:07:30] [Watchdog Thread/ERROR]: Entity AABB: AABB[131.49531116609518, 65.0, 99.36575012257924] -> [131.99531116609518, 66.97500002384186, 99.86575012257924]
-[17:07:30] [Watchdog Thread/ERROR]: ------------------------------
-[17:07:30] [Watchdog Thread/ERROR]: Current Thread: Server thread
-[17:07:30] [Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: RUNNABLE
-[17:07:30] [Watchdog Thread/ERROR]: 	Stack:
-[17:07:30] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.ChunkEntitySlices.getEntities(ChunkEntitySlices.java:138)
-[17:07:30] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.EntitySliceManager.getEntities(EntitySliceManager.java:149)
-[17:07:30] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getEntities(Level.java:1266)
-[17:07:30] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.pushEntities(ArmorStand.java:360)
-[17:07:30] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3421)
-[17:07:30] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.w_(ArmorStand.java:1012)
-[17:07:30] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3001)
-[17:07:30] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.tick(ArmorStand.java:697)
-[17:07:30] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1221)
-[17:07:30] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.lambda$tick$5(ServerLevel.java:698)
-[17:07:30] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$5264/0x000000080188e570.accept(Unknown Source)
-[17:07:30] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:43)
-[17:07:30] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:676)
-[17:07:30] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1645)
-[17:07:30] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
-[17:07:30] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1507)
-[17:07:30] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1294)
-[17:07:30] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
-[17:07:30] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4014/0x0000000801482aa0.run(Unknown Source)
-[17:07:30] [Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
-[17:07:30] [Watchdog Thread/ERROR]: ------------------------------
-[17:07:30] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
-[17:07:30] [Watchdog Thread/ERROR]: ------------------------------
-[17:07:35] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1566 (MC: 1.18.1) ---
-[17:07:35] [Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
-[17:07:35] [Watchdog Thread/ERROR]: ------------------------------
-[17:07:35] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
-[17:07:35] [Watchdog Thread/ERROR]: Ticking entity: minecraft:armor_stand, entity class: net.minecraft.world.entity.decoration.EntityArmorStand
-[17:07:35] [Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[17:07:35] [Watchdog Thread/ERROR]: Entity UUID: 10f876ad-0e68-448b-9622-56cf6c2c5a12
-[17:07:35] [Watchdog Thread/ERROR]: Position: world: 'world' at location (131.74531116609518, 65.0, 99.61575012257924)
-[17:07:35] [Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
-[17:07:35] [Watchdog Thread/ERROR]: Entity AABB: AABB[131.49531116609518, 65.0, 99.36575012257924] -> [131.99531116609518, 66.97500002384186, 99.86575012257924]
-[17:07:35] [Watchdog Thread/ERROR]: ------------------------------
-[17:07:35] [Watchdog Thread/ERROR]: Current Thread: Server thread
-[17:07:35] [Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: RUNNABLE
-[17:07:35] [Watchdog Thread/ERROR]: 	Stack:
-[17:07:35] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.ChunkEntitySlices.getEntities(ChunkEntitySlices.java:138)
-[17:07:35] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.EntitySliceManager.getEntities(EntitySliceManager.java:149)
-[17:07:35] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getEntities(Level.java:1266)
-[17:07:35] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.pushEntities(ArmorStand.java:360)
-[17:07:35] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3421)
-[17:07:35] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.w_(ArmorStand.java:1012)
-[17:07:35] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3001)
-[17:07:35] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.tick(ArmorStand.java:697)
-[17:07:35] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1221)
-[17:07:35] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.lambda$tick$5(ServerLevel.java:698)
-[17:07:35] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$5264/0x000000080188e570.accept(Unknown Source)
-[17:07:35] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:43)
-[17:07:35] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:676)
-[17:07:35] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1645)
-[17:07:35] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
-[17:07:35] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1507)
-[17:07:35] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1294)
-[17:07:35] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
-[17:07:35] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4014/0x0000000801482aa0.run(Unknown Source)
-[17:07:35] [Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
-[17:07:35] [Watchdog Thread/ERROR]: ------------------------------
-[17:07:35] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
-[17:07:35] [Watchdog Thread/ERROR]: ------------------------------
-[17:07:40] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1566 (MC: 1.18.1) ---
-[17:07:40] [Watchdog Thread/ERROR]: The server has not responded for 25 seconds! Creating thread dump
-[17:07:40] [Watchdog Thread/ERROR]: ------------------------------
-[17:07:40] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
-[17:07:40] [Watchdog Thread/ERROR]: Ticking entity: minecraft:armor_stand, entity class: net.minecraft.world.entity.decoration.EntityArmorStand
-[17:07:40] [Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[17:07:40] [Watchdog Thread/ERROR]: Entity UUID: 8a9e5125-ee58-4b27-9291-fc60ea03678b
-[17:07:40] [Watchdog Thread/ERROR]: Position: world: 'world' at location (131.74531116609518, 65.0, 99.61575012257924)
-[17:07:40] [Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
-[17:07:40] [Watchdog Thread/ERROR]: Entity AABB: AABB[131.49531116609518, 65.0, 99.36575012257924] -> [131.99531116609518, 66.97500002384186, 99.86575012257924]
-[17:07:40] [Watchdog Thread/ERROR]: ------------------------------
-[17:07:40] [Watchdog Thread/ERROR]: Current Thread: Server thread
-[17:07:40] [Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: RUNNABLE
-[17:07:40] [Watchdog Thread/ERROR]: 	Stack:
-[17:07:40] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.ChunkEntitySlices.getEntities(ChunkEntitySlices.java:138)
-[17:07:40] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.EntitySliceManager.getEntities(EntitySliceManager.java:149)
-[17:07:40] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getEntities(Level.java:1266)
-[17:07:40] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.pushEntities(ArmorStand.java:360)
-[17:07:40] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3421)
-[17:07:40] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.w_(ArmorStand.java:1012)
-[17:07:40] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3001)
-[17:07:40] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.tick(ArmorStand.java:697)
-[17:07:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1221)
-[17:07:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.lambda$tick$5(ServerLevel.java:698)
-[17:07:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$5264/0x000000080188e570.accept(Unknown Source)
-[17:07:40] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:43)
-[17:07:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:676)
-[17:07:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1645)
-[17:07:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
-[17:07:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1507)
-[17:07:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1294)
-[17:07:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
-[17:07:40] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4014/0x0000000801482aa0.run(Unknown Source)
-[17:07:40] [Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
-[17:07:40] [Watchdog Thread/ERROR]: ------------------------------
-[17:07:40] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
-[17:07:40] [Watchdog Thread/ERROR]: ------------------------------
-[17:07:42] [Server thread/INFO]: aritz331_ lost connection: Disconnected
-[17:07:43] [Server thread/INFO]: aritz331_ left the game
-[17:07:43] [Server thread/INFO]: Killed 32767 entities
-[17:07:43] [Server thread/INFO]: No entity was found
-[17:07:43] [Server thread/INFO]: No entity was found
-[17:07:43] [Server thread/INFO]: No entity was found
-[17:07:43] [Server thread/INFO]: No entity was found
-[17:07:43] [Server thread/INFO]: No entity was found
-[17:07:43] [Server thread/INFO]: No entity was found
-[17:07:43] [Server thread/INFO]: No entity was found
-[17:07:43] [Server thread/INFO]: No entity was found
-[17:07:43] [Server thread/INFO]: No entity was found
-[17:07:43] [Server thread/INFO]: No entity was found
-[17:07:43] [Server thread/INFO]: No entity was found
-[17:07:43] [Server thread/INFO]: No entity was found
-[17:07:43] [Server thread/INFO]: No entity was found
-[17:07:43] [Server thread/INFO]: No entity was found
-[17:07:43] [Server thread/INFO]: No entity was found
-[17:07:49] [Server thread/INFO]: No entity was found
-[17:07:49] [Server thread/INFO]: No entity was found
-[17:08:01] [User Authenticator #1/INFO]: UUID of player aritz331_ is f878090c-42dc-3ff0-b26f-4ab19e0244d4
-[17:08:02] [Server thread/INFO]: aritz331_ joined the game
-[17:08:02] [Server thread/INFO]: aritz331_[/127.0.0.1:57533] logged in with entity id 32769 at ([world]131.74531116609518, 65.0, 99.61575012257924)
-[17:08:17] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1566 (MC: 1.18.1) ---
-[17:08:17] [Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[17:08:17] [Watchdog Thread/ERROR]: ------------------------------
-[17:08:17] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
-[17:08:17] [Watchdog Thread/ERROR]: Ticking entity: minecraft:armor_stand, entity class: net.minecraft.world.entity.decoration.EntityArmorStand
-[17:08:17] [Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[17:08:17] [Watchdog Thread/ERROR]: Entity UUID: 3ab16343-33ae-4f72-9e43-88e96f208b87
-[17:08:17] [Watchdog Thread/ERROR]: Position: world: 'world' at location (131.74531116609518, 65.0, 99.61575012257924)
-[17:08:17] [Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
-[17:08:17] [Watchdog Thread/ERROR]: Entity AABB: AABB[131.49531116609518, 65.0, 99.36575012257924] -> [131.99531116609518, 66.97500002384186, 99.86575012257924]
-[17:08:17] [Watchdog Thread/ERROR]: ------------------------------
-[17:08:17] [Watchdog Thread/ERROR]: Current Thread: Server thread
-[17:08:17] [Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: RUNNABLE
-[17:08:17] [Watchdog Thread/ERROR]: 	Stack:
-[17:08:17] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.ChunkEntitySlices.getEntities(ChunkEntitySlices.java:138)
-[17:08:17] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.EntitySliceManager.getEntities(EntitySliceManager.java:149)
-[17:08:17] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getEntities(Level.java:1266)
-[17:08:17] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.pushEntities(ArmorStand.java:360)
-[17:08:17] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3421)
-[17:08:17] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.w_(ArmorStand.java:1012)
-[17:08:17] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3001)
-[17:08:17] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.tick(ArmorStand.java:697)
-[17:08:17] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1221)
-[17:08:17] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.lambda$tick$5(ServerLevel.java:698)
-[17:08:17] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$5264/0x000000080188e570.accept(Unknown Source)
-[17:08:17] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:43)
-[17:08:17] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:676)
-[17:08:17] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1645)
-[17:08:17] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
-[17:08:17] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1507)
-[17:08:17] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1294)
-[17:08:17] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
-[17:08:17] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4014/0x0000000801482aa0.run(Unknown Source)
-[17:08:17] [Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
-[17:08:17] [Watchdog Thread/ERROR]: ------------------------------
-[17:08:17] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
-[17:08:17] [Watchdog Thread/ERROR]: ------------------------------
-[17:08:22] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1566 (MC: 1.18.1) ---
-[17:08:22] [Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
-[17:08:22] [Watchdog Thread/ERROR]: ------------------------------
-[17:08:22] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
-[17:08:22] [Watchdog Thread/ERROR]: Ticking entity: minecraft:armor_stand, entity class: net.minecraft.world.entity.decoration.EntityArmorStand
-[17:08:22] [Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[17:08:22] [Watchdog Thread/ERROR]: Entity UUID: adf95ae9-41fd-4fe2-bd05-9f9a5ee11ba8
-[17:08:22] [Watchdog Thread/ERROR]: Position: world: 'world' at location (131.74531116609518, 65.0, 99.61575012257924)
-[17:08:22] [Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
-[17:08:22] [Watchdog Thread/ERROR]: Entity AABB: AABB[131.49531116609518, 65.0, 99.36575012257924] -> [131.99531116609518, 66.97500002384186, 99.86575012257924]
-[17:08:22] [Watchdog Thread/ERROR]: ------------------------------
-[17:08:22] [Watchdog Thread/ERROR]: Current Thread: Server thread
-[17:08:22] [Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: RUNNABLE
-[17:08:22] [Watchdog Thread/ERROR]: 	Stack:
-[17:08:22] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.ChunkEntitySlices.getEntities(ChunkEntitySlices.java:138)
-[17:08:22] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.EntitySliceManager.getEntities(EntitySliceManager.java:149)
-[17:08:22] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getEntities(Level.java:1266)
-[17:08:22] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.pushEntities(ArmorStand.java:360)
-[17:08:22] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3421)
-[17:08:22] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.w_(ArmorStand.java:1012)
-[17:08:22] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3001)
-[17:08:22] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.tick(ArmorStand.java:697)
-[17:08:22] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1221)
-[17:08:22] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.lambda$tick$5(ServerLevel.java:698)
-[17:08:22] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$5264/0x000000080188e570.accept(Unknown Source)
-[17:08:22] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:43)
-[17:08:22] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:676)
-[17:08:22] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1645)
-[17:08:22] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
-[17:08:22] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1507)
-[17:08:22] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1294)
-[17:08:22] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
-[17:08:22] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4014/0x0000000801482aa0.run(Unknown Source)
-[17:08:22] [Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
-[17:08:22] [Watchdog Thread/ERROR]: ------------------------------
-[17:08:22] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
-[17:08:22] [Watchdog Thread/ERROR]: ------------------------------
-[17:08:27] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1566 (MC: 1.18.1) ---
-[17:08:27] [Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
-[17:08:27] [Watchdog Thread/ERROR]: ------------------------------
-[17:08:27] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
-[17:08:27] [Watchdog Thread/ERROR]: Ticking entity: minecraft:armor_stand, entity class: net.minecraft.world.entity.decoration.EntityArmorStand
-[17:08:27] [Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[17:08:27] [Watchdog Thread/ERROR]: Entity UUID: 27e995f8-693a-4d59-906f-0b298407dd8a
-[17:08:27] [Watchdog Thread/ERROR]: Position: world: 'world' at location (131.74531116609518, 65.0, 99.61575012257924)
-[17:08:27] [Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
-[17:08:27] [Watchdog Thread/ERROR]: Entity AABB: AABB[131.49531116609518, 65.0, 99.36575012257924] -> [131.99531116609518, 66.97500002384186, 99.86575012257924]
-[17:08:27] [Watchdog Thread/ERROR]: ------------------------------
-[17:08:27] [Watchdog Thread/ERROR]: Current Thread: Server thread
-[17:08:27] [Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: RUNNABLE
-[17:08:27] [Watchdog Thread/ERROR]: 	Stack:
-[17:08:27] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.ChunkEntitySlices.getEntities(ChunkEntitySlices.java:138)
-[17:08:27] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.EntitySliceManager.getEntities(EntitySliceManager.java:149)
-[17:08:27] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getEntities(Level.java:1266)
-[17:08:27] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.pushEntities(ArmorStand.java:360)
-[17:08:27] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3421)
-[17:08:27] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.w_(ArmorStand.java:1012)
-[17:08:27] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3001)
-[17:08:27] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.tick(ArmorStand.java:697)
-[17:08:27] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1221)
-[17:08:27] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.lambda$tick$5(ServerLevel.java:698)
-[17:08:27] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$5264/0x000000080188e570.accept(Unknown Source)
-[17:08:27] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:43)
-[17:08:27] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:676)
-[17:08:27] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1645)
-[17:08:27] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
-[17:08:27] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1507)
-[17:08:27] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1294)
-[17:08:27] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
-[17:08:27] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4014/0x0000000801482aa0.run(Unknown Source)
-[17:08:27] [Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
-[17:08:27] [Watchdog Thread/ERROR]: ------------------------------
-[17:08:27] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
-[17:08:27] [Watchdog Thread/ERROR]: ------------------------------
-[17:08:32] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1566 (MC: 1.18.1) ---
-[17:08:32] [Watchdog Thread/ERROR]: The server has not responded for 25 seconds! Creating thread dump
-[17:08:32] [Watchdog Thread/ERROR]: ------------------------------
-[17:08:32] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
-[17:08:32] [Watchdog Thread/ERROR]: Ticking entity: minecraft:armor_stand, entity class: net.minecraft.world.entity.decoration.EntityArmorStand
-[17:08:32] [Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[17:08:32] [Watchdog Thread/ERROR]: Entity UUID: 1f617ac3-24a6-42ff-a7df-faa5ea5f0920
-[17:08:32] [Watchdog Thread/ERROR]: Position: world: 'world' at location (131.74531116609518, 65.0, 99.61575012257924)
-[17:08:32] [Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
-[17:08:32] [Watchdog Thread/ERROR]: Entity AABB: AABB[131.49531116609518, 65.0, 99.36575012257924] -> [131.99531116609518, 66.97500002384186, 99.86575012257924]
-[17:08:32] [Watchdog Thread/ERROR]: ------------------------------
-[17:08:32] [Watchdog Thread/ERROR]: Current Thread: Server thread
-[17:08:32] [Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: RUNNABLE
-[17:08:32] [Watchdog Thread/ERROR]: 	Stack:
-[17:08:32] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.ChunkEntitySlices.getEntities(ChunkEntitySlices.java:138)
-[17:08:32] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.EntitySliceManager.getEntities(EntitySliceManager.java:149)
-[17:08:32] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getEntities(Level.java:1266)
-[17:08:32] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.pushEntities(ArmorStand.java:360)
-[17:08:32] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3421)
-[17:08:32] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.w_(ArmorStand.java:1012)
-[17:08:32] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3001)
-[17:08:32] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.tick(ArmorStand.java:697)
-[17:08:32] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1221)
-[17:08:32] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.lambda$tick$5(ServerLevel.java:698)
-[17:08:32] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$5264/0x000000080188e570.accept(Unknown Source)
-[17:08:32] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:43)
-[17:08:32] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:676)
-[17:08:32] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1645)
-[17:08:32] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
-[17:08:32] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1507)
-[17:08:32] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1294)
-[17:08:32] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
-[17:08:32] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4014/0x0000000801482aa0.run(Unknown Source)
-[17:08:32] [Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
-[17:08:32] [Watchdog Thread/ERROR]: ------------------------------
-[17:08:32] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
-[17:08:32] [Watchdog Thread/ERROR]: ------------------------------
-[17:08:37] [Server thread/INFO]: aritz331_ lost connection: Disconnected
-[17:08:37] [Server thread/INFO]: aritz331_ left the game
-[17:08:37] [Server thread/INFO]: Killed 32767 entities
-[17:08:37] [Server thread/INFO]: No entity was found
-[17:08:37] [Server thread/INFO]: No entity was found
-[17:08:37] [Server thread/INFO]: No entity was found
-[17:08:37] [Server thread/INFO]: No entity was found
-[17:08:37] [Server thread/INFO]: No entity was found
-[17:08:37] [Server thread/INFO]: No entity was found
-[17:08:37] [Server thread/INFO]: No entity was found
-[17:08:37] [Server thread/INFO]: No entity was found
-[17:08:37] [Server thread/INFO]: No entity was found
-[17:08:37] [Server thread/INFO]: No entity was found
-[17:08:37] [Server thread/INFO]: No entity was found
-[17:08:37] [Server thread/INFO]: No entity was found
-[17:08:37] [Server thread/INFO]: No entity was found
-[17:08:37] [Server thread/INFO]: No entity was found
-[17:08:37] [Server thread/INFO]: No entity was found
-[17:08:37] [Server thread/INFO]: No entity was found
-[17:08:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 34434ms or 688 ticks behind
-[17:09:05] [Server thread/INFO]: Incorrect argument for command
-[17:09:05] [Server thread/INFO]: gamerule maxentitycramming<--[HERE]
-[17:09:16] [Server thread/INFO]: Gamerule maxEntityCramming is now set to: 1
-[17:09:18] [User Authenticator #2/INFO]: UUID of player aritz331_ is f878090c-42dc-3ff0-b26f-4ab19e0244d4
-[17:09:18] [Server thread/INFO]: aritz331_ joined the game
-[17:09:18] [Server thread/INFO]: aritz331_[/127.0.0.1:57675] logged in with entity id 65537 at ([world]133.11329048140655, 64.0, 101.31482561498315)
-[17:09:34] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1566 (MC: 1.18.1) ---
-[17:09:34] [Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[17:09:34] [Watchdog Thread/ERROR]: ------------------------------
-[17:09:34] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
-[17:09:34] [Watchdog Thread/ERROR]: Ticking entity: minecraft:armor_stand, entity class: net.minecraft.world.entity.decoration.EntityArmorStand
-[17:09:34] [Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[17:09:34] [Watchdog Thread/ERROR]: Entity UUID: d299c7f4-6472-45b9-b559-aba77701b73c
-[17:09:34] [Watchdog Thread/ERROR]: Position: world: 'world' at location (133.11329048140655, 64.0, 101.31482561498315)
-[17:09:34] [Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
-[17:09:34] [Watchdog Thread/ERROR]: Entity AABB: AABB[132.86329048140655, 64.0, 101.06482561498315] -> [133.36329048140655, 65.97500002384186, 101.56482561498315]
-[17:09:34] [Watchdog Thread/ERROR]: ------------------------------
-[17:09:34] [Watchdog Thread/ERROR]: Current Thread: Server thread
-[17:09:34] [Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: RUNNABLE
-[17:09:34] [Watchdog Thread/ERROR]: 	Stack:
-[17:09:34] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.ChunkEntitySlices.getEntities(ChunkEntitySlices.java:138)
-[17:09:34] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.EntitySliceManager.getEntities(EntitySliceManager.java:149)
-[17:09:34] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getEntities(Level.java:1266)
-[17:09:34] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.pushEntities(ArmorStand.java:360)
-[17:09:34] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3421)
-[17:09:34] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.w_(ArmorStand.java:1012)
-[17:09:34] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3001)
-[17:09:34] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.tick(ArmorStand.java:697)
-[17:09:34] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1221)
-[17:09:34] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.lambda$tick$5(ServerLevel.java:698)
-[17:09:34] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$5264/0x000000080188e570.accept(Unknown Source)
-[17:09:34] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:43)
-[17:09:34] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:676)
-[17:09:34] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1645)
-[17:09:34] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
-[17:09:34] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1507)
-[17:09:34] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1294)
-[17:09:34] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
-[17:09:34] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4014/0x0000000801482aa0.run(Unknown Source)
-[17:09:34] [Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
-[17:09:34] [Watchdog Thread/ERROR]: ------------------------------
-[17:09:34] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
-[17:09:34] [Watchdog Thread/ERROR]: ------------------------------
-[17:09:39] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1566 (MC: 1.18.1) ---
-[17:09:39] [Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
-[17:09:39] [Watchdog Thread/ERROR]: ------------------------------
-[17:09:39] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
-[17:09:39] [Watchdog Thread/ERROR]: Ticking entity: minecraft:armor_stand, entity class: net.minecraft.world.entity.decoration.EntityArmorStand
-[17:09:39] [Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[17:09:39] [Watchdog Thread/ERROR]: Entity UUID: 4a7eefef-4c69-4634-8ee8-32741211b3c0
-[17:09:39] [Watchdog Thread/ERROR]: Position: world: 'world' at location (133.11329048140655, 64.0, 101.31482561498315)
-[17:09:39] [Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
-[17:09:39] [Watchdog Thread/ERROR]: Entity AABB: AABB[132.86329048140655, 64.0, 101.06482561498315] -> [133.36329048140655, 65.97500002384186, 101.56482561498315]
-[17:09:39] [Watchdog Thread/ERROR]: ------------------------------
-[17:09:39] [Watchdog Thread/ERROR]: Current Thread: Server thread
-[17:09:39] [Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: RUNNABLE
-[17:09:39] [Watchdog Thread/ERROR]: 	Stack:
-[17:09:39] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.ChunkEntitySlices.getEntities(ChunkEntitySlices.java:138)
-[17:09:39] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.EntitySliceManager.getEntities(EntitySliceManager.java:149)
-[17:09:39] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getEntities(Level.java:1266)
-[17:09:39] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.pushEntities(ArmorStand.java:360)
-[17:09:39] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3421)
-[17:09:39] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.w_(ArmorStand.java:1012)
-[17:09:39] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3001)
-[17:09:39] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.tick(ArmorStand.java:697)
-[17:09:39] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1221)
-[17:09:39] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.lambda$tick$5(ServerLevel.java:698)
-[17:09:39] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$5264/0x000000080188e570.accept(Unknown Source)
-[17:09:39] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:43)
-[17:09:39] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:676)
-[17:09:39] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1645)
-[17:09:39] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
-[17:09:39] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1507)
-[17:09:39] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1294)
-[17:09:39] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
-[17:09:39] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4014/0x0000000801482aa0.run(Unknown Source)
-[17:09:39] [Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
-[17:09:39] [Watchdog Thread/ERROR]: ------------------------------
-[17:09:39] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
-[17:09:39] [Watchdog Thread/ERROR]: ------------------------------
-[17:09:44] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1566 (MC: 1.18.1) ---
-[17:09:44] [Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
-[17:09:44] [Watchdog Thread/ERROR]: ------------------------------
-[17:09:44] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
-[17:09:44] [Watchdog Thread/ERROR]: Ticking entity: minecraft:armor_stand, entity class: net.minecraft.world.entity.decoration.EntityArmorStand
-[17:09:44] [Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[17:09:44] [Watchdog Thread/ERROR]: Entity UUID: 7dbb52c2-b489-4e5d-9c44-56467f75dce3
-[17:09:44] [Watchdog Thread/ERROR]: Position: world: 'world' at location (133.11329048140655, 64.0, 101.31482561498315)
-[17:09:44] [Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
-[17:09:44] [Watchdog Thread/ERROR]: Entity AABB: AABB[132.86329048140655, 64.0, 101.06482561498315] -> [133.36329048140655, 65.97500002384186, 101.56482561498315]
-[17:09:44] [Watchdog Thread/ERROR]: ------------------------------
-[17:09:44] [Watchdog Thread/ERROR]: Current Thread: Server thread
-[17:09:44] [Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: RUNNABLE
-[17:09:44] [Watchdog Thread/ERROR]: 	Stack:
-[17:09:44] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.ChunkEntitySlices.getEntities(ChunkEntitySlices.java:138)
-[17:09:44] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.EntitySliceManager.getEntities(EntitySliceManager.java:149)
-[17:09:44] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getEntities(Level.java:1266)
-[17:09:44] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.pushEntities(ArmorStand.java:360)
-[17:09:44] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3421)
-[17:09:44] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.w_(ArmorStand.java:1012)
-[17:09:44] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3001)
-[17:09:44] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.tick(ArmorStand.java:697)
-[17:09:44] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1221)
-[17:09:44] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.lambda$tick$5(ServerLevel.java:698)
-[17:09:44] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$5264/0x000000080188e570.accept(Unknown Source)
-[17:09:44] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:43)
-[17:09:44] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:676)
-[17:09:44] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1645)
-[17:09:44] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
-[17:09:44] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1507)
-[17:09:44] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1294)
-[17:09:44] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
-[17:09:44] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4014/0x0000000801482aa0.run(Unknown Source)
-[17:09:44] [Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
-[17:09:44] [Watchdog Thread/ERROR]: ------------------------------
-[17:09:44] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
-[17:09:44] [Watchdog Thread/ERROR]: ------------------------------
-[17:09:49] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1566 (MC: 1.18.1) ---
-[17:09:49] [Watchdog Thread/ERROR]: The server has not responded for 25 seconds! Creating thread dump
-[17:09:49] [Watchdog Thread/ERROR]: ------------------------------
-[17:09:49] [Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Purpur!):
-[17:09:49] [Watchdog Thread/ERROR]: Ticking entity: minecraft:armor_stand, entity class: net.minecraft.world.entity.decoration.EntityArmorStand
-[17:09:49] [Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[17:09:49] [Watchdog Thread/ERROR]: Entity UUID: 063c490c-f581-4b8c-84ef-bbcd97fa6480
-[17:09:49] [Watchdog Thread/ERROR]: Position: world: 'world' at location (133.11329048140655, 64.0, 101.31482561498315)
-[17:09:49] [Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
-[17:09:49] [Watchdog Thread/ERROR]: Entity AABB: AABB[132.86329048140655, 64.0, 101.06482561498315] -> [133.36329048140655, 65.97500002384186, 101.56482561498315]
-[17:09:49] [Watchdog Thread/ERROR]: ------------------------------
-[17:09:49] [Watchdog Thread/ERROR]: Current Thread: Server thread
-[17:09:49] [Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: RUNNABLE
-[17:09:49] [Watchdog Thread/ERROR]: 	Stack:
-[17:09:49] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.ChunkEntitySlices.getEntities(ChunkEntitySlices.java:138)
-[17:09:49] [Watchdog Thread/ERROR]: 		io.papermc.paper.world.EntitySliceManager.getEntities(EntitySliceManager.java:149)
-[17:09:49] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getEntities(Level.java:1266)
-[17:09:49] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.pushEntities(ArmorStand.java:360)
-[17:09:49] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3421)
-[17:09:49] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.w_(ArmorStand.java:1012)
-[17:09:49] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3001)
-[17:09:49] [Watchdog Thread/ERROR]: 		net.minecraft.world.entity.decoration.ArmorStand.tick(ArmorStand.java:697)
-[17:09:49] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1221)
-[17:09:49] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.lambda$tick$5(ServerLevel.java:698)
-[17:09:49] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$5264/0x000000080188e570.accept(Unknown Source)
-[17:09:49] [Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:43)
-[17:09:49] [Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:676)
-[17:09:49] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1645)
-[17:09:49] [Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
-[17:09:49] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1507)
-[17:09:49] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1294)
-[17:09:49] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
-[17:09:49] [Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4014/0x0000000801482aa0.run(Unknown Source)
-[17:09:49] [Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
-[17:09:49] [Watchdog Thread/ERROR]: ------------------------------
-[17:09:49] [Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PURPUR - THIS IS NOT A BUG OR A CRASH ---
-[17:09:49] [Watchdog Thread/ERROR]: ------------------------------
-[17:09:54] [Server thread/INFO]: aritz331_ lost connection: Disconnected
-[17:09:54] [Server thread/INFO]: aritz331_ left the game
-[17:09:54] [Server thread/INFO]: Killed 32767 entities
-[17:09:54] [Server thread/INFO]: No entity was found
-[17:09:54] [Server thread/INFO]: No entity was found
-[17:09:54] [Server thread/INFO]: No entity was found
-[17:09:54] [Server thread/INFO]: No entity was found
-[17:09:54] [Server thread/INFO]: No entity was found
-[17:09:54] [Server thread/INFO]: No entity was found
-[17:09:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 34404ms or 688 ticks behind
-[17:09:56] [Server thread/INFO]: Gamerule maxEntityCramming is now set to: 1
-[17:10:00] [Server thread/INFO]: Gamerule maxEntityCramming is currently set to: 1
-[17:10:02] [User Authenticator #2/INFO]: UUID of player aritz331_ is f878090c-42dc-3ff0-b26f-4ab19e0244d4
-[17:10:02] [Server thread/INFO]: aritz331_ joined the game
-[17:10:02] [Server thread/INFO]: aritz331_[/127.0.0.1:57746] logged in with entity id 98305 at ([world]133.11329048140655, 64.0, 101.31482561498315)
-[17:10:15] [Server thread/INFO]: Killed 16381 entities
-[17:11:07] [Server thread/INFO]: aritz331_ issued server command: /gamerule maxEntityCramming 0
-[17:11:07] [Server thread/INFO]: [aritz331_: Gamerule maxEntityCramming is now set to: 0]
-[17:11:10] [Server thread/INFO]: aritz331_ issued server command: /gamerule maxEntityCramming -1
-[17:11:10] [Server thread/INFO]: [aritz331_: Gamerule maxEntityCramming is now set to: -1]
-[17:11:13] [Server thread/INFO]: aritz331_ issued server command: /gamerule maxEntityCramming 0
-[17:11:13] [Server thread/INFO]: [aritz331_: Gamerule maxEntityCramming is now set to: 0]
-[17:11:16] [Server thread/INFO]: aritz331_ issued server command: /gamerule maxEntityCramming 1
-[17:11:16] [Server thread/INFO]: [aritz331_: Gamerule maxEntityCramming is now set to: 1]
-[17:11:59] [Server thread/INFO]: aritz331_ issued server command: /gamerule maxEntityCramming 0
-[17:11:59] [Server thread/INFO]: [aritz331_: Gamerule maxEntityCramming is now set to: 0]
-[17:13:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
-[17:14:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11718ms or 234 ticks behind
-[17:14:12] [Server thread/INFO]: aritz331_ issued server command: /kill @e
-[17:14:12] [Server thread/INFO]: aritz331_ fell out of the world
-[17:14:12] [Server thread/INFO]: [aritz331_: Killed 2800 entities]
-[17:14:31] [Server thread/INFO]: aritz331_ lost connection: Disconnected
-[17:14:32] [Server thread/INFO]: aritz331_ left the game
+[18:07:16] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.0
+[18:07:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:07:16] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.0
+[18:07:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:07:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:07:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:07:16] [Server thread/WARN]: You will not be offered any support as long as the server allows offline-mode players to join.
+[18:07:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:07:16] [Server thread/INFO]: Preparing level "world"
+[18:07:17] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:07:17] [Server thread/INFO]: Simulation Distance: 10
+[18:07:17] [Server thread/INFO]: View Distance: 10
+[18:07:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:07:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:07:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:07:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:07:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:07:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:07:17] [Server thread/INFO]: Mob Spawn Range: 8
+[18:07:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:07:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:07:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:07:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:07:17] [Server thread/INFO]: Max TNT Explosions: 100
+[18:07:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:07:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:07:17] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:07:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:07:17] [Server thread/INFO]: Simulation Distance: 10
+[18:07:17] [Server thread/INFO]: View Distance: 10
+[18:07:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:07:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:07:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:07:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:07:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:07:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:07:17] [Server thread/INFO]: Mob Spawn Range: 8
+[18:07:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:07:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[18:07:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:07:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:07:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:07:17] [Server thread/INFO]: Max TNT Explosions: 100
+[18:07:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:07:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:07:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:07:17] [Server thread/INFO]: [FullServerJoin] Enabling FullServerJoin v1.4*
+[18:07:17] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.2.1
+[18:07:17] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.0.0
+[18:07:17] [Server thread/INFO]: Starting GS4 status listener
+[18:07:17] [Server thread/INFO]: Thread Query Listener started
+[18:07:17] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[18:07:17] [Server thread/INFO]: Running delayed init tasks
+[18:07:17] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18/1.18.1 (757)
+[18:07:17] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[18:07:17] [Server thread/INFO]: Done (4.926s)! For help, type "help"
+[18:07:17] [Server thread/INFO]: Timings Reset
+[18:07:18] [User Authenticator #1/INFO]: UUID of player aritz331_ is f878090c-42dc-3ff0-b26f-4ab19e0244d4
+[18:07:19] [Server thread/INFO]: aritz331_ joined the game
+[18:07:19] [Server thread/INFO]: aritz331_[/127.0.0.1:60237] logged in with entity id 1 at ([world]132.9752250130931, 65.0, 98.88842286910999)
+[18:07:23] [Server thread/INFO]: aritz331_ issued server command: /ss
+[18:07:30] [Server thread/INFO]: Unknown command
+[18:10:49] [Server thread/INFO]: aritz331_ issued server command: /summon egg ~ ~ ~ {NoAI:1b}
+[18:10:49] [Server thread/INFO]: [aritz331_: Summoned new Thrown Egg]
+[18:10:52] [Server thread/INFO]: aritz331_ issued server command: /summon egg ~ ~ ~ {NoAI:1b}
+[18:10:52] [Server thread/INFO]: [aritz331_: Summoned new Thrown Egg]
+[18:10:53] [Server thread/INFO]: aritz331_ issued server command: /summon egg ~ ~ ~ {NoAI:1b}
+[18:10:53] [Server thread/INFO]: [aritz331_: Summoned new Thrown Egg]
+[18:10:56] [Server thread/INFO]: aritz331_ issued server command: /summon egg ~ ~ ~ {NoAI:1b}
+[18:10:56] [Server thread/INFO]: [aritz331_: Summoned new Thrown Egg]
+[18:10:56] [Server thread/INFO]: aritz331_ issued server command: /summon egg ~ ~ ~ {NoAI:1b}
+[18:10:56] [Server thread/INFO]: [aritz331_: Summoned new Thrown Egg]
+[18:10:57] [Server thread/INFO]: aritz331_ issued server command: /summon egg ~ ~ ~ {NoAI:1b}
+[18:10:57] [Server thread/INFO]: [aritz331_: Summoned new Thrown Egg]
+[18:10:58] [Server thread/INFO]: aritz331_ issued server command: /summon egg ~ ~ ~ {NoAI:1b}
+[18:10:58] [Server thread/INFO]: [aritz331_: Summoned new Thrown Egg]
+[18:10:58] [Server thread/INFO]: aritz331_ issued server command: /summon egg ~ ~ ~ {NoAI:1b}
+[18:10:58] [Server thread/INFO]: [aritz331_: Summoned new Thrown Egg]
+[18:10:59] [Server thread/INFO]: aritz331_ issued server command: /summon egg ~ ~ ~ {NoAI:1b}
+[18:10:59] [Server thread/INFO]: [aritz331_: Summoned new Thrown Egg]
+[18:14:54] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[18:14:54] [Server thread/INFO]: [aritz331_: Killed 1275 entities]
+[18:16:49] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[18:16:49] [Server thread/INFO]: [aritz331_: Killed 1204 entities]
+[18:17:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5015ms or 100 ticks behind
+[18:18:14] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[18:18:14] [Server thread/INFO]: [aritz331_: Killed 3634 entities]
+[18:18:36] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[18:18:36] [Server thread/INFO]: [aritz331_: Killed 2006 entities]
+[18:19:16] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[18:19:16] [Server thread/INFO]: [aritz331_: Killed 523 entities]
+[18:20:01] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[18:20:01] [Server thread/INFO]: [aritz331_: Killed 566 entities]
+[18:20:57] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[18:20:57] [Server thread/INFO]: [aritz331_: Killed 1396 entities]
+[18:22:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[18:22:52] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[18:22:52] [Server thread/INFO]: [aritz331_: Killed 3794 entities]
+[18:24:20] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[18:24:20] [Server thread/INFO]: [aritz331_: Killed 2341 entities]
+[18:24:44] [Server thread/INFO]: aritz331_ issued server command: /gamemode spectator
+[18:24:44] [Server thread/INFO]: [aritz331_: Set own game mode to Spectator Mode]
+[18:24:50] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:24:50] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:24:52] [Server thread/INFO]: aritz331_ issued server command: /gamemode spectator
+[18:24:52] [Server thread/INFO]: [aritz331_: Set own game mode to Spectator Mode]
+[18:25:03] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:25:03] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:25:04] [Server thread/INFO]: aritz331_ issued server command: /gamemode spectator
+[18:25:04] [Server thread/INFO]: [aritz331_: Set own game mode to Spectator Mode]
+[18:25:05] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:25:05] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:25:10] [Server thread/INFO]: aritz331_ issued server command: /gamemode spectator
+[18:25:10] [Server thread/INFO]: [aritz331_: Set own game mode to Spectator Mode]
+[18:25:29] [Server thread/INFO]: aritz331_ fell out of the world
+[18:25:34] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:25:34] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:25:41] [Server thread/INFO]: aritz331_ issued server command: /gamemode spectator
+[18:25:41] [Server thread/INFO]: [aritz331_: Set own game mode to Spectator Mode]
+[18:25:42] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:25:42] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:25:43] [Server thread/INFO]: aritz331_ issued server command: /gamemode spectator
+[18:25:43] [Server thread/INFO]: [aritz331_: Set own game mode to Spectator Mode]
+[18:25:43] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:25:43] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:25:44] [Server thread/INFO]: aritz331_ issued server command: /gamemode spectator
+[18:25:44] [Server thread/INFO]: [aritz331_: Set own game mode to Spectator Mode]
+[18:25:47] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:25:47] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:26:16] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[18:26:16] [Server thread/INFO]: [aritz331_: Killed 1632 entities]
+[18:27:04] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[18:27:04] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[18:27:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:27:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:27:04] [Server thread/WARN]: [Pufferfish] To improve performance, timings have been disabled by default
+[18:27:04] [Server thread/WARN]: [Pufferfish] You can still use timings by using /timings on, but they will not start on server startup unless you set timings.really-enabled to true in paper.yml
+[18:27:04] [Server thread/WARN]: [Pufferfish] If you would like to disable this message, either set timings.really-enabled to true or timings.enabled to false.
+[18:27:04] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:27:04] [Server thread/INFO]: Simulation Distance: 10
+[18:27:04] [Server thread/INFO]: View Distance: 10
+[18:27:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:27:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:27:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:27:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:27:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:27:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:27:04] [Server thread/INFO]: Mob Spawn Range: 8
+[18:27:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:27:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:27:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:27:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:27:04] [Server thread/INFO]: Max TNT Explosions: 100
+[18:27:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:27:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:27:04] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:27:04] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:27:04] [Server thread/INFO]: Simulation Distance: 10
+[18:27:04] [Server thread/INFO]: View Distance: 10
+[18:27:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:27:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:27:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:27:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:27:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:27:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:27:04] [Server thread/INFO]: Mob Spawn Range: 8
+[18:27:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:27:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[18:27:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:27:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:27:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:27:04] [Server thread/INFO]: Max TNT Explosions: 100
+[18:27:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:27:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:27:04] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:27:04] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.0
+[18:27:04] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.0.0
+[18:27:04] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.2.1
+[18:27:04] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[18:27:04] [Server thread/INFO]: [FullServerJoin] Disabling FullServerJoin v1.4
+[18:27:04] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[18:27:04] [Server thread/INFO]: Loaded 7 recipes
+[18:27:05] [Server thread/WARN]: Legacy plugin FullServerJoin v1.4 does not specify an api-version.
+[18:27:05] [Server thread/INFO]: [FullServerJoin] Loading FullServerJoin v1.4
+[18:27:05] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.9+e20e013
+[18:27:05] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1d229588]
+[18:27:05] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
+[18:27:05] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.2.1
+[18:27:05] [Server thread/INFO]: [ViaVersion] ViaVersion 4.2.1 is now loaded, injecting!
+[18:27:05] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[18:27:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[18:27:05] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[18:27:05] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[18:27:05] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[18:27:05] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[18:27:05] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[18:27:05] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[18:27:05] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[18:27:05] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.0.0
+[18:27:05] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:27:05] [Via-Mappingloader-8/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[18:27:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:27:06] [Via-Mappingloader-8/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[18:27:06] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[18:27:06] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[18:27:06] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[18:27:06] [Via-Mappingloader-0/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_13_2To1_14
+[18:27:06] [Via-Mappingloader-0/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:27:06] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+[18:27:06] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+[18:27:06] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
+[18:27:06] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+[18:27:06] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[18:27:06] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[18:27:06] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[18:27:06] [Via-Mappingloader-0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:27:06] [Via-Mappingloader-0/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:27:06] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
+[18:27:06] [Via-Mappingloader-0/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
+[18:27:06] [Via-Mappingloader-0/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
+[18:27:06] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
+[18:27:06] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:453)
+[18:27:06] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+[18:27:06] [Via-Mappingloader-0/WARN]: 	... 5 more
+[18:27:06] [Via-Mappingloader-7/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_12_2To1_13
+[18:27:06] [Via-Mappingloader-7/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:27:06] [Via-Mappingloader-7/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+[18:27:06] [Via-Mappingloader-7/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+[18:27:06] [Via-Mappingloader-7/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
+[18:27:06] [Via-Mappingloader-7/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+[18:27:06] [Via-Mappingloader-7/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[18:27:06] [Via-Mappingloader-7/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[18:27:06] [Via-Mappingloader-7/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[18:27:06] [Via-Mappingloader-7/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:27:06] [Via-Mappingloader-7/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:27:06] [Via-Mappingloader-7/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
+[18:27:06] [Via-Mappingloader-7/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
+[18:27:06] [Via-Mappingloader-7/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
+[18:27:06] [Via-Mappingloader-7/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
+[18:27:06] [Via-Mappingloader-7/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.protocol.protocol1_12_2to1_13.Protocol1_12_2To1_13.lambda$registerPackets$0(Protocol1_12_2To1_13.java:60)
+[18:27:06] [Via-Mappingloader-7/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:453)
+[18:27:06] [Via-Mappingloader-7/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+[18:27:06] [Via-Mappingloader-7/WARN]: 	... 5 more
+[18:27:06] [Server thread/ERROR]: [org.bukkit.craftbukkit.v1_18_R1.CraftServer] Load factor must be greater than 0 and smaller than 1 initializing ViaBackwards v4.0.0 (Is it up to date?)
+java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+	at com.viaversion.viaversion.libs.fastutil.ints.Int2IntOpenHashMap.<init>(Int2IntOpenHashMap.java:101) ~[ViaVersion-4.2.1.jar:?]
+	at com.viaversion.viabackwards.api.rewriters.EntityRewriterBase.mapTypes(EntityRewriterBase.java:150) ~[ViaBackwards-4.0.0.jar:?]
+	at com.viaversion.viabackwards.protocol.protocol1_13_2to1_14.packets.EntityPackets1_14.registerRewrites(EntityPackets1_14.java:348) ~[ViaBackwards-4.0.0.jar:?]
+	at com.viaversion.viaversion.api.rewriter.RewriterBase.register(RewriterBase.java:37) ~[ViaVersion-4.2.1.jar:?]
+	at com.viaversion.viabackwards.protocol.protocol1_13_2to1_14.Protocol1_13_2To1_14.registerPackets(Protocol1_13_2To1_14.java:72) ~[ViaBackwards-4.0.0.jar:?]
+	at com.viaversion.viaversion.api.protocol.AbstractProtocol.initialize(AbstractProtocol.java:76) ~[ViaVersion-4.2.1.jar:?]
+	at com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:184) ~[ViaVersion-4.2.1.jar:?]
+	at com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:178) ~[ViaVersion-4.2.1.jar:?]
+	at com.viaversion.viabackwards.api.ViaBackwardsPlatform.init(ViaBackwardsPlatform.java:90) ~[ViaBackwards-4.0.0.jar:?]
+	at com.viaversion.viabackwards.BukkitPlugin.init(BukkitPlugin.java:48) ~[ViaBackwards-4.0.0.jar:?]
+	at com.viaversion.viabackwards.BukkitPlugin.onLoad(BukkitPlugin.java:36) ~[ViaBackwards-4.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.loadPlugins(CraftServer.java:426) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.reload(CraftServer.java:1019) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at org.bukkit.Bukkit.reload(Bukkit.java:897) ~[purpur-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[purpur-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:172) ~[purpur-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.dispatchCommand(CraftServer.java:908) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.dispatchServerCommand(CraftServer.java:871) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:546) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:520) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1507) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1294) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[18:27:06] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.0
+[18:27:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:27:06] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.9+e20e013
+[18:27:06] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:27:06] [Server thread/INFO]: WEPIF: Updated config file
+[18:27:06] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:27:06] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:27:06] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R1.PaperweightAdapter as the Bukkit adapter
+[18:27:06] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.0
+[18:27:06] [Server thread/INFO]: [FullServerJoin] Enabling FullServerJoin v1.4*
+[18:27:06] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.2.1
+[18:27:06] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.0.0
+[18:27:07] [Server thread/INFO]: CONSOLE: Reload complete.
+[18:27:07] [Server thread/INFO]: Timings Reset
+[18:27:07] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18/1.18.1 (757)
+[18:27:07] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[18:27:13] [Server thread/INFO]: aritz331_ issued server command: //
+[18:27:16] [Server thread/INFO]: aritz331_ issued server command: //
+[18:27:25] [Server thread/INFO]: aritz331_ issued server command: //
+[18:27:31] [Server thread/INFO]: aritz331_ issued server command: //
+[18:27:32] [Server thread/INFO]: aritz331_ issued server command: //
+[18:27:48] [Server thread/INFO]: aritz331_ issued server command: //
+[18:27:59] [Server thread/INFO]: aritz331_ issued server command: /setblock ~ ~ ~ stone
+[18:27:59] [Server thread/INFO]: [aritz331_: Changed the block at 119, 69, 104]
+[18:28:05] [Server thread/INFO]: aritz331_ issued server command: /setblock ~ ~ ~ stone
+[18:28:05] [Server thread/INFO]: [aritz331_: Changed the block at 125, 69, 104]
+[18:28:07] [Server thread/INFO]: aritz331_ issued server command: //
+[18:28:13] [Server thread/INFO]: aritz331_ issued server command: //
+[18:29:08] [Server thread/INFO]: aritz331_ issued server command: //
+[18:29:22] [Server thread/INFO]: aritz331_ issued server command: //
+[18:29:37] [Server thread/INFO]: aritz331_ issued server command: /sp single
+[18:29:50] [Server thread/INFO]: aritz331_ issued server command: //
+[18:30:10] [Server thread/INFO]: aritz331_ issued server command: /gamemode survival
+[18:30:10] [Server thread/INFO]: [aritz331_: Set own game mode to Survival Mode]
+[18:30:14] [Server thread/INFO]: aritz331_ issued server command: //
+[18:30:41] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:30:41] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:30:49] [Server thread/INFO]: aritz331_ issued server command: /gamemode survival
+[18:30:49] [Server thread/INFO]: [aritz331_: Set own game mode to Survival Mode]
+[18:31:03] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:absorption 10 255
+[18:31:03] [Server thread/INFO]: [aritz331_: Applied effect Absorption to aritz331_]
+[18:31:28] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:health_boost 10 255
+[18:31:28] [Server thread/INFO]: [aritz331_: Applied effect Health Boost to aritz331_]
+[18:31:43] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:regeneration 10 255
+[18:31:43] [Server thread/INFO]: [aritz331_: Applied effect Regeneration to aritz331_]
+[18:31:46] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:absorption 10 255
+[18:31:46] [Server thread/INFO]: [aritz331_: Applied effect Absorption to aritz331_]
+[18:31:48] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:health_boost 10 255
+[18:31:48] [Server thread/INFO]: [aritz331_: Applied effect Health Boost to aritz331_]
+[18:31:50] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:regeneration 10 255
+[18:31:50] [Server thread/INFO]: [aritz331_: Applied effect Regeneration to aritz331_]
+[18:32:11] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:absorption 999999 255
+[18:32:11] [Server thread/INFO]: [aritz331_: Applied effect Absorption to aritz331_]
+[18:32:18] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:regeneration 999999 255
+[18:32:18] [Server thread/INFO]: [aritz331_: Applied effect Regeneration to aritz331_]
+[18:32:25] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:health_boost 999999 255
+[18:32:25] [Server thread/INFO]: [aritz331_: Applied effect Health Boost to aritz331_]
+[18:32:39] [Server thread/INFO]: aritz331_ issued server command: /effect clear @s minecraft:regeneration
+[18:32:39] [Server thread/INFO]: [aritz331_: Removed effect Regeneration from aritz331_]
+[18:32:43] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:regeneration 10 255
+[18:32:43] [Server thread/INFO]: [aritz331_: Applied effect Regeneration to aritz331_]
+[18:33:00] [Server thread/INFO]: aritz331_ issued server command: /give @s stone 255
+[18:33:00] [Server thread/INFO]: [aritz331_: Gave 255 [Stone] to aritz331_]
+[18:33:33] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:regeneration 10 255
+[18:33:33] [Server thread/INFO]: [aritz331_: Applied effect Regeneration to aritz331_]
+[18:33:45] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:regeneration 10 255
+[18:33:45] [Server thread/INFO]: [aritz331_: Applied effect Regeneration to aritz331_]
+[18:33:58] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:regeneration 10 255
+[18:33:58] [Server thread/INFO]: [aritz331_: Applied effect Regeneration to aritz331_]
+[18:34:34] [Server thread/INFO]: aritz331_ issued server command: /kill
+[18:34:34] [Server thread/INFO]: aritz331_ fell out of the world
+[18:34:34] [Server thread/INFO]: [aritz331_: Killed aritz331_]
+[18:34:40] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:34:40] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:35:04] [Server thread/INFO]: [@] a
+[18:35:06] [Server thread/INFO]: [@] a
+[18:36:04] [Server thread/INFO]: aritz331_ issued server command: /gamemode survival
+[18:36:04] [Server thread/INFO]: [aritz331_: Set own game mode to Survival Mode]
+[18:36:11] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:36:11] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:36:27] [Server thread/INFO]: aritz331_ issued server command: /effect clear
+[18:36:27] [Server thread/INFO]: [aritz331_: Removed every effect from aritz331_]
+[18:36:30] [Server thread/INFO]: aritz331_ issued server command: /gamemode survival
+[18:36:30] [Server thread/INFO]: [aritz331_: Set own game mode to Survival Mode]
+[18:36:35] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:36:35] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:36:46] [Server thread/INFO]: aritz331_ issued server command: /gamemode survival
+[18:36:46] [Server thread/INFO]: [aritz331_: Set own game mode to Survival Mode]
+[18:36:58] [Server thread/INFO]: aritz331_ issued server command: /feed
+[18:37:24] [Server thread/INFO]: aritz331_ issued server command: /reload confirm
+[18:37:24] [Server thread/INFO]: aritz331_: Please note that this command is not supported and may cause issues when using some plugins.
+[18:37:24] [Server thread/INFO]: aritz331_: If you encounter any issues please use the /stop command to restart your server.
+[18:37:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:37:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:37:24] [Server thread/WARN]: [Pufferfish] To improve performance, timings have been disabled by default
+[18:37:24] [Server thread/WARN]: [Pufferfish] You can still use timings by using /timings on, but they will not start on server startup unless you set timings.really-enabled to true in paper.yml
+[18:37:24] [Server thread/WARN]: [Pufferfish] If you would like to disable this message, either set timings.really-enabled to true or timings.enabled to false.
+[18:37:24] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:37:24] [Server thread/INFO]: Simulation Distance: 10
+[18:37:24] [Server thread/INFO]: View Distance: 10
+[18:37:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:37:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:37:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:37:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:37:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:37:24] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:37:24] [Server thread/INFO]: Mob Spawn Range: 8
+[18:37:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:37:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:37:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:37:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:37:24] [Server thread/INFO]: Max TNT Explosions: 100
+[18:37:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:37:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:37:24] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:37:24] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:37:24] [Server thread/INFO]: Simulation Distance: 10
+[18:37:24] [Server thread/INFO]: View Distance: 10
+[18:37:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:37:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:37:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:37:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:37:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:37:24] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:37:24] [Server thread/INFO]: Mob Spawn Range: 8
+[18:37:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:37:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[18:37:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:37:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:37:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:37:24] [Server thread/INFO]: Max TNT Explosions: 100
+[18:37:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:37:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:37:24] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:37:24] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.0
+[18:37:24] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.0.0
+[18:37:24] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.2.1
+[18:37:24] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[18:37:24] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.9+e20e013
+[18:37:24] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:37:24] [Server thread/INFO]: [FullServerJoin] Disabling FullServerJoin v1.4
+[18:37:24] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[18:37:25] [Server thread/INFO]: Loaded 7 recipes
+[18:37:25] [Server thread/WARN]: Legacy plugin FullServerJoin v1.4 does not specify an api-version.
+[18:37:25] [Server thread/WARN]: Legacy plugin UltimateHealAndFeed v1.0 does not specify an api-version.
+[18:37:25] [Server thread/INFO]: [FullServerJoin] Loading FullServerJoin v1.4
+[18:37:25] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.9+e20e013
+[18:37:25] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@390bc9a4]
+[18:37:25] [Server thread/INFO]: [UltimateHealAndFeed] Loading UltimateHealAndFeed v1.0
+[18:37:25] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.2.1
+[18:37:25] [Server thread/INFO]: [ViaVersion] ViaVersion 4.2.1 is now loaded, injecting!
+[18:37:25] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[18:37:25] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[18:37:25] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[18:37:25] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[18:37:25] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[18:37:25] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[18:37:25] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[18:37:25] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[18:37:25] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[18:37:25] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.0.0
+[18:37:25] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:37:25] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:37:26] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[18:37:26] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[18:37:26] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[18:37:26] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[18:37:26] [Via-Mappingloader-6/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_12_2To1_13
+[18:37:26] [Via-Mappingloader-6/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:37:26] [Via-Mappingloader-6/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+[18:37:26] [Via-Mappingloader-6/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+[18:37:26] [Via-Mappingloader-6/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
+[18:37:26] [Via-Mappingloader-6/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+[18:37:26] [Via-Mappingloader-6/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[18:37:26] [Via-Mappingloader-6/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[18:37:26] [Via-Mappingloader-6/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[18:37:26] [Via-Mappingloader-6/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:37:26] [Via-Mappingloader-6/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:37:26] [Via-Mappingloader-6/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
+[18:37:26] [Via-Mappingloader-6/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
+[18:37:26] [Via-Mappingloader-6/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
+[18:37:26] [Via-Mappingloader-6/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
+[18:37:26] [Via-Mappingloader-6/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.protocol.protocol1_12_2to1_13.Protocol1_12_2To1_13.lambda$registerPackets$0(Protocol1_12_2To1_13.java:60)
+[18:37:26] [Via-Mappingloader-6/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:453)
+[18:37:26] [Via-Mappingloader-6/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+[18:37:26] [Via-Mappingloader-6/WARN]: 	... 5 more
+[18:37:26] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[18:37:26] [Via-Mappingloader-0/ERROR]: [ViaVersion] Error during mapping loading of Protocol1_13_2To1_14
+[18:37:26] [Via-Mappingloader-0/WARN]: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:37:26] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+[18:37:26] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+[18:37:26] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:874)
+[18:37:26] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+[18:37:26] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[18:37:26] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[18:37:26] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[18:37:26] [Via-Mappingloader-0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:37:26] [Via-Mappingloader-0/WARN]: Caused by: java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+[18:37:26] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.libs.fastutil.ints.Int2ObjectOpenHashMap.<init>(Int2ObjectOpenHashMap.java:107)
+[18:37:26] [Via-Mappingloader-0/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.VBMappingDataLoader.loadItemMappings(VBMappingDataLoader.java:137)
+[18:37:26] [Via-Mappingloader-0/WARN]: 	at ViaBackwards-4.0.0.jar//com.viaversion.viabackwards.api.data.BackwardsMappings.loadExtras(BackwardsMappings.java:57)
+[18:37:26] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.api.data.MappingDataBase.load(MappingDataBase.java:102)
+[18:37:26] [Via-Mappingloader-0/WARN]: 	at ViaVersion-4.2.1.jar//com.viaversion.viaversion.protocol.ProtocolManagerImpl.lambda$addMappingLoaderFuture$1(ProtocolManagerImpl.java:453)
+[18:37:26] [Via-Mappingloader-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+[18:37:26] [Via-Mappingloader-0/WARN]: 	... 5 more
+[18:37:26] [Server thread/ERROR]: [org.bukkit.craftbukkit.v1_18_R1.CraftServer] Load factor must be greater than 0 and smaller than 1 initializing ViaBackwards v4.0.0 (Is it up to date?)
+java.lang.IllegalArgumentException: Load factor must be greater than 0 and smaller than 1
+	at com.viaversion.viaversion.libs.fastutil.ints.Int2IntOpenHashMap.<init>(Int2IntOpenHashMap.java:101) ~[ViaVersion-4.2.1.jar:?]
+	at com.viaversion.viabackwards.api.rewriters.EntityRewriterBase.mapTypes(EntityRewriterBase.java:150) ~[ViaBackwards-4.0.0.jar:?]
+	at com.viaversion.viabackwards.protocol.protocol1_13_2to1_14.packets.EntityPackets1_14.registerRewrites(EntityPackets1_14.java:348) ~[ViaBackwards-4.0.0.jar:?]
+	at com.viaversion.viaversion.api.rewriter.RewriterBase.register(RewriterBase.java:37) ~[ViaVersion-4.2.1.jar:?]
+	at com.viaversion.viabackwards.protocol.protocol1_13_2to1_14.Protocol1_13_2To1_14.registerPackets(Protocol1_13_2To1_14.java:72) ~[ViaBackwards-4.0.0.jar:?]
+	at com.viaversion.viaversion.api.protocol.AbstractProtocol.initialize(AbstractProtocol.java:76) ~[ViaVersion-4.2.1.jar:?]
+	at com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:184) ~[ViaVersion-4.2.1.jar:?]
+	at com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:178) ~[ViaVersion-4.2.1.jar:?]
+	at com.viaversion.viabackwards.api.ViaBackwardsPlatform.init(ViaBackwardsPlatform.java:90) ~[ViaBackwards-4.0.0.jar:?]
+	at com.viaversion.viabackwards.BukkitPlugin.init(BukkitPlugin.java:48) ~[ViaBackwards-4.0.0.jar:?]
+	at com.viaversion.viabackwards.BukkitPlugin.onLoad(BukkitPlugin.java:36) ~[ViaBackwards-4.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.loadPlugins(CraftServer.java:426) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.reload(CraftServer.java:1019) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at org.bukkit.Bukkit.reload(Bukkit.java:897) ~[purpur-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[purpur-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:172) ~[purpur-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.dispatchCommand(CraftServer.java:908) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleCommand(ServerGamePacketListenerImpl.java:2372) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleChat(ServerGamePacketListenerImpl.java:2183) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleChat(ServerGamePacketListenerImpl.java:2164) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.handle(ServerboundChatPacket.java:46) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundChatPacket.a(ServerboundChatPacket.java:6) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:56) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:149) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1450) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:189) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1427) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1420) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1398) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322) ~[purpur-1.18.1.jar:git-Purpur-1566]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[18:37:26] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.0
+[18:37:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:37:26] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.9+e20e013
+[18:37:26] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:37:26] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:37:26] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[18:37:26] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R1.PaperweightAdapter as the Bukkit adapter
+[18:37:26] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.0
+[18:37:26] [Server thread/INFO]: [FullServerJoin] Enabling FullServerJoin v1.4*
+[18:37:26] [Server thread/INFO]: [UltimateHealAndFeed] Enabling UltimateHealAndFeed v1.0*
+[18:37:26] [Server thread/INFO]: [Ultimate Heal and Feed] Plugin enabled!
+[18:37:26] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.2.1
+[18:37:26] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.0.0
+[18:37:26] [Server thread/INFO]: aritz331_: Reload complete.
+[18:37:26] [Server thread/INFO]: Timings Reset
+[18:37:26] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18/1.18.1 (757)
+[18:37:26] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[18:37:29] [Server thread/INFO]: aritz331_ issued server command: /heal
+[18:37:36] [Server thread/INFO]: aritz331_ issued server command: /feed
+[18:37:50] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:poison
+[18:37:50] [Server thread/INFO]: [aritz331_: Applied effect Poison to aritz331_]
+[18:37:55] [Server thread/INFO]: aritz331_ issued server command: /effect clear
+[18:37:55] [Server thread/INFO]: [aritz331_: Removed every effect from aritz331_]
+[18:38:00] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:poison 1 2
+[18:38:00] [Server thread/INFO]: [aritz331_: Applied effect Poison to aritz331_]
+[18:38:06] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:poison 1 255
+[18:38:06] [Server thread/INFO]: [aritz331_: Applied effect Poison to aritz331_]
+[18:38:11] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:poison 5 255
+[18:38:11] [Server thread/INFO]: [aritz331_: Applied effect Poison to aritz331_]
+[18:38:18] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:poison 5 255
+[18:38:18] [Server thread/INFO]: [aritz331_: Applied effect Poison to aritz331_]
+[18:38:32] [Server thread/INFO]: aritz331_ issued server command: /feed
+[18:38:34] [Server thread/INFO]: aritz331_ issued server command: /heal
+[18:45:52] [Server thread/INFO]: aritz331_ issued server command: /feed
+[18:46:07] [Server thread/INFO]: aritz331_ issued server command: /feed
+[18:46:28] [Server thread/INFO]: aritz331_ issued server command: /effect clear @s minecraft:regeneration
+[18:46:28] [Server thread/INFO]: [aritz331_: Removed effect Regeneration from aritz331_]
+[18:46:43] [Server thread/INFO]: aritz331_ issued server command: //
+[18:47:19] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:regeneration 99 255
+[18:47:19] [Server thread/INFO]: [aritz331_: Applied effect Regeneration to aritz331_]
+[18:47:29] [Server thread/INFO]: aritz331_ issued server command: /kill
+[18:47:29] [Server thread/INFO]: aritz331_ fell out of the world
+[18:47:29] [Server thread/INFO]: [aritz331_: Killed aritz331_]
+[18:49:19] [Server thread/INFO]: aritz331_ issued server command: /feed
+[18:49:45] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:health_boost 1000000 255
+[18:49:45] [Server thread/INFO]: [aritz331_: Applied effect Health Boost to aritz331_]
+[18:50:53] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:50:53] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:50:59] [Server thread/INFO]: aritz331_ issued server command: /gamemode survival
+[18:50:59] [Server thread/INFO]: [aritz331_: Set own game mode to Survival Mode]
+[18:51:03] [Server thread/INFO]: aritz331_ issued server command: /fly
+[18:51:15] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:absorption 1000000 255 false
+[18:51:15] [Server thread/INFO]: [aritz331_: Applied effect Absorption to aritz331_]
+[18:51:19] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:51:19] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:51:25] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:absorption 1000000 255 true
+[18:51:25] [Server thread/INFO]: [aritz331_: Applied effect Absorption to aritz331_]
+[18:51:26] [Server thread/INFO]: aritz331_ issued server command: /gamemode survival
+[18:51:26] [Server thread/INFO]: [aritz331_: Set own game mode to Survival Mode]
+[18:51:31] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:51:31] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:51:34] [Server thread/INFO]: aritz331_ issued server command: /gamemode survival
+[18:51:34] [Server thread/INFO]: [aritz331_: Set own game mode to Survival Mode]
+[18:52:52] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:regeneration 1000000 255
+[18:52:52] [Server thread/INFO]: [aritz331_: Applied effect Regeneration to aritz331_]
+[18:55:19] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:health_boost 1000000 25
+[18:55:19] [Server thread/INFO]: [aritz331_: Applied effect Health Boost to aritz331_]
+[18:55:26] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:health_boost 1000000 2
+[18:55:29] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:health_boost 1000000 1
+[18:55:34] [Server thread/INFO]: aritz331_ issued server command: /kill
+[18:55:34] [Server thread/INFO]: aritz331_ fell out of the world
+[18:55:34] [Server thread/INFO]: [aritz331_: Killed aritz331_]
+[18:55:38] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:health_boost 1000000
+[18:55:38] [Server thread/INFO]: [aritz331_: Applied effect Health Boost to aritz331_]
+[18:55:49] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:55:49] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:56:17] [Server thread/INFO]: aritz331_ issued server command: /kill
+[18:56:17] [Server thread/INFO]: aritz331_ fell out of the world
+[18:56:17] [Server thread/INFO]: [aritz331_: Killed aritz331_]
+[18:56:25] [Server thread/INFO]: aritz331_ issued server command: /gamemode survival
+[18:56:25] [Server thread/INFO]: [aritz331_: Set own game mode to Survival Mode]
+[18:56:28] [Server thread/INFO]: aritz331_ issued server command: /effect clear
+[18:56:28] [Server thread/INFO]: [aritz331_: Removed every effect from aritz331_]
+[18:56:39] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:56:39] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:56:49] [Server thread/INFO]: aritz331_ issued server command: /effect clear
+[18:56:49] [Server thread/INFO]: [aritz331_: Removed every effect from aritz331_]
+[18:57:12] [Server thread/INFO]: aritz331_ issued server command: /kill
+[18:57:12] [Server thread/INFO]: aritz331_ fell out of the world
+[18:57:12] [Server thread/INFO]: [aritz331_: Killed aritz331_]
+[18:57:14] [Server thread/INFO]: aritz331_ issued server command: /gamemode survival
+[18:57:14] [Server thread/INFO]: [aritz331_: Set own game mode to Survival Mode]
+[18:57:26] [Server thread/INFO]: aritz331_ issued server command: /effect clear
+[18:57:26] [Server thread/INFO]: [aritz331_: Removed every effect from aritz331_]
+[18:57:26] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:57:26] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:57:34] [Server thread/INFO]: aritz331_ issued server command: /gamemode survival
+[18:57:34] [Server thread/INFO]: [aritz331_: Set own game mode to Survival Mode]
+[18:57:58] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:57:58] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:58:00] [Server thread/INFO]: aritz331_ issued server command: /gamemode survival
+[18:58:00] [Server thread/INFO]: [aritz331_: Set own game mode to Survival Mode]
+[18:58:02] [Server thread/INFO]: aritz331_ issued server command: /kill
+[18:58:02] [Server thread/INFO]: aritz331_ fell out of the world
+[18:58:02] [Server thread/INFO]: [aritz331_: Killed aritz331_]
+[18:59:42] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:jump_boost 100 255
+[18:59:42] [Server thread/INFO]: [aritz331_: Applied effect Jump Boost to aritz331_]
+[18:59:45] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[18:59:45] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[18:59:49] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:jump_boost 100 25
+[18:59:55] [Server thread/INFO]: aritz331_ issued server command: /effect clear
+[18:59:55] [Server thread/INFO]: [aritz331_: Removed every effect from aritz331_]
+[18:59:58] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:jump_boost 100 25
+[18:59:58] [Server thread/INFO]: [aritz331_: Applied effect Jump Boost to aritz331_]
+[19:00:03] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:jump_boost 100 251
+[19:00:03] [Server thread/INFO]: [aritz331_: Applied effect Jump Boost to aritz331_]
+[19:00:15] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:jump_boost 100 100
+[19:00:17] [Server thread/INFO]: aritz331_ issued server command: /effect clear
+[19:00:17] [Server thread/INFO]: [aritz331_: Removed every effect from aritz331_]
+[19:00:19] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:jump_boost 100 100
+[19:00:19] [Server thread/INFO]: [aritz331_: Applied effect Jump Boost to aritz331_]
+[19:00:20] [Server thread/WARN]: aritz331_ moved too quickly! 0.0,10.520000368356705,-0.08180342409026764
+[19:00:21] [Server thread/WARN]: aritz331_ moved too quickly! 0.05359139781576516,10.520000368356705,-0.1913536789796524
+[19:00:21] [Server thread/WARN]: aritz331_ moved too quickly! 0.0,10.520000368356705,-0.030458665622205672
+[19:00:22] [Server thread/WARN]: aritz331_ moved too quickly! 0.0,10.520000368356705,0.0
+[19:00:22] [Server thread/WARN]: aritz331_ moved too quickly! -0.1980684441669922,10.520000368356705,0.05400253097789687
+[19:00:26] [Server thread/WARN]: aritz331_ moved too quickly! 0.0,10.520000368356705,0.0
+[19:00:27] [Server thread/WARN]: aritz331_ moved too quickly! 0.0,10.520000368356705,0.0
+[19:00:29] [Server thread/WARN]: aritz331_ moved too quickly! 0.01169117304516476,10.520000368356705,0.0
+[19:00:29] [Server thread/WARN]: aritz331_ moved too quickly! 0.0,10.520000368356705,0.0
+[19:00:30] [Server thread/WARN]: aritz331_ moved too quickly! 0.0,10.520000368356705,0.0
+[19:00:30] [Server thread/WARN]: aritz331_ moved too quickly! 0.0,10.520000368356705,0.0
+[19:00:34] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:jump_boost 100 50 true
+[19:00:34] [Server thread/INFO]: [aritz331_: Applied effect Jump Boost to aritz331_]
+[19:00:35] [Server thread/WARN]: aritz331_ moved too quickly! 0.0,10.520000368356705,0.0
+[19:00:36] [Server thread/WARN]: aritz331_ moved too quickly! 0.0,10.520000368356705,0.0
+[19:00:38] [Server thread/INFO]: aritz331_ issued server command: /effect clear
+[19:00:38] [Server thread/INFO]: [aritz331_: Removed every effect from aritz331_]
+[19:00:41] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:jump_boost 10 50 true
+[19:00:41] [Server thread/INFO]: [aritz331_: Applied effect Jump Boost to aritz331_]
+[19:01:03] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:jump_boost 10 90 true
+[19:01:03] [Server thread/INFO]: [aritz331_: Applied effect Jump Boost to aritz331_]
+[19:01:16] [Server thread/INFO]: aritz331_ issued server command: /effect give @s minecraft:jump_boost 10 128 true
+[19:01:16] [Server thread/INFO]: [aritz331_: Applied effect Jump Boost to aritz331_]
+[19:02:22] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[19:02:22] [Server thread/INFO]: [aritz331_: Killed 577 entities]
+[19:02:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5021ms or 100 ticks behind
+[19:04:24] [Server thread/INFO]: aritz331_ fell out of the world
+[19:04:24] [Server thread/INFO]: Killed 24236 entities
+[19:04:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 71139ms or 1422 ticks behind
+[19:04:30] [Server thread/INFO]: aritz331_ lost connection: Timed out
+[19:04:30] [Server thread/INFO]: aritz331_ left the game
+[19:09:38] [User Authenticator #2/INFO]: UUID of player aritz331_ is f878090c-42dc-3ff0-b26f-4ab19e0244d4
+[19:09:38] [Server thread/INFO]: aritz331_ joined the game
+[19:09:38] [Server thread/INFO]: aritz331_[/127.0.0.1:51236] logged in with entity id 106563 at ([world]131.71236518303607, 77.65760093158035, 96.54167668599345)
+[19:09:39] [Server thread/INFO]: Skipping update from removed player 'EntityPlayer['aritz331_'/106563, uuid='f878090c-42dc-3ff0-b26f-4ab19e0244d4', l='ServerLevel[world]', x=131.71, y=77.66, z=96.54, cpos=[8, 6], tl=104528, v=false, removed=KILLED](aritz331_ at 131.71236518303607,77.65760093158035,96.54167668599345)'
+[19:10:33] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[19:10:33] [Server thread/INFO]: [aritz331_: Killed 3077 entities]
+[19:11:37] [Server thread/INFO]: aritz331_ issued server command: /execute if entity @e[type=minecraft:chicken] at @e[type=!minecraft:chicken] run say a
+[19:11:41] [Server thread/INFO]: aritz331_ issued server command: /summon minecraft:chicken
+[19:11:41] [Server thread/INFO]: [aritz331_: Summoned new Chicken]
+[19:11:43] [Server thread/INFO]: aritz331_ issued server command: /execute if entity @e[type=minecraft:chicken] at @e[type=!minecraft:chicken] run say a
+[19:11:43] [Server thread/INFO]: [aritz331_] a
+[19:11:43] [Server thread/INFO]: [aritz331_] a
+[19:12:24] [Server thread/INFO]: aritz331_ issued server command: /execute facing entity @e[type=minecraft:chicken] eyes run credits
+[19:12:48] [Server thread/INFO]: aritz331_ issued server command: /execute facing entity @e[type=minecraft:chicken] eyes run demo
+[19:13:07] [Server thread/INFO]: aritz331_ issued server command: /execute facing entity @e[type=minecraft:chicken] eyes run help
+[19:13:14] [Server thread/INFO]: aritz331_ issued server command: /summon minecraft:chicken
+[19:13:14] [Server thread/INFO]: [aritz331_: Summoned new Chicken]
+[19:13:16] [Server thread/INFO]: aritz331_ issued server command: /execute facing entity @e[type=minecraft:chicken] eyes run help
+[19:13:19] [Server thread/INFO]: aritz331_ issued server command: /execute facing entity @e[type=minecraft:chicken] eyes run help
+[19:13:40] [Server thread/INFO]: aritz331_ issued server command: /help forceload
+[19:13:50] [Server thread/INFO]: aritz331_ issued server command: /forceload add 128 101 128 101 a
+[19:13:52] [Server thread/INFO]: aritz331_ issued server command: /forceload add 128 101 128 101
+[19:13:52] [Server thread/INFO]: [aritz331_: Marked chunk [8, 6] in minecraft:overworld to be force loaded]
+[19:13:59] [Server thread/INFO]: aritz331_ issued server command: /forceload remove all
+[19:13:59] [Server thread/INFO]: [aritz331_: Unmarked all force loaded chunks in minecraft:overworld]
+[19:16:09] [Server thread/INFO]: aritz331_ issued server command: /gamemode survival
+[19:16:09] [Server thread/INFO]: [aritz331_: Set own game mode to Survival Mode]
+[19:16:09] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[19:16:09] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[19:16:10] [Server thread/INFO]: aritz331_ issued server command: /gamemode survival
+[19:16:10] [Server thread/INFO]: [aritz331_: Set own game mode to Survival Mode]
+[19:16:12] [Server thread/INFO]: aritz331_ issued server command: /gamemode creative
+[19:16:12] [Server thread/INFO]: [aritz331_: Set own game mode to Creative Mode]
+[19:16:26] [Server thread/INFO]: aritz331_ issued server command: /kill @e[type=!minecraft:player]
+[19:16:26] [Server thread/INFO]: [aritz331_: Killed 3 entities]
+[19:17:49] [Server thread/INFO]: aritz331_ issued server command: /scoreboard players add @s a 1
+[19:26:44] [Server thread/INFO]: aritz331_ issued server command: /give @s bow
+[19:26:44] [Server thread/INFO]: [aritz331_: Gave 1 [Bow] to aritz331_]
+[19:27:45] [Server thread/INFO]: aritz331_ has made the advancement [Take Aim]
+[19:28:05] [Server thread/INFO]: aritz331_ fell out of the world
+[19:28:16] [Server thread/INFO]: aritz331_ lost connection: Disconnected
+[19:28:16] [Server thread/INFO]: aritz331_ left the game
+[19:28:17] [User Authenticator #3/INFO]: UUID of player aritz331_ is f878090c-42dc-3ff0-b26f-4ab19e0244d4
+[19:28:17] [Server thread/INFO]: aritz331_ joined the game
+[19:28:17] [Server thread/INFO]: aritz331_[/127.0.0.1:54155] logged in with entity id 113842 at ([world]131.38507950211698, 66.9697721687211, 98.2371933613898)
+[19:28:18] [Server thread/INFO]: aritz331_ issued server command: /stop
+[19:28:18] [Server thread/INFO]: [aritz331_: Stopping the server]
+[19:28:18] [Server thread/INFO]: Stopping server
+[19:28:18] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.0
+[19:28:18] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.0.0
+[19:28:18] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.2.1
+[19:28:18] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[19:28:18] [Server thread/INFO]: [UltimateHealAndFeed] Disabling UltimateHealAndFeed v1.0
+[19:28:18] [Server thread/INFO]: [Ultimate Heal and Feed] Plugin disabled!
+[19:28:18] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.9+e20e013
+[19:28:18] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:28:18] [Server thread/INFO]: [FullServerJoin] Disabling FullServerJoin v1.4
+[19:28:18] [Server thread/INFO]: Saving players
+[19:28:18] [Server thread/INFO]: aritz331_ lost connection: Server closed
+[19:28:18] [Server thread/INFO]: aritz331_ left the game
+[19:28:18] [Server thread/INFO]: Saving worlds
+[19:28:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:28:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:28:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:28:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:28:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:28:19] [Server thread/INFO]: Flushing Chunk IO
+[19:28:19] [Server thread/INFO]: Closing Thread Pool
