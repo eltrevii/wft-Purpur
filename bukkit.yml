@@ -21,7 +21,9 @@ settings:
   connection-throttle: 4000
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: Server closed
+  shutdown-message: §x§f§f§0§0§0§0T§x§f§f§0§c§0§0h§x§f§f§1§7§0§0e §x§f§f§2§3§0§0s§x§f§f§2§e§0§0e§x§f§f§3§a§0§0r§x§f§f§4§5§0§0v§x§f§f§5§1§0§0e§x§f§f§5§c§0§0r
+    §x§f§f§6§8§0§0h§x§f§f§7§3§0§0a§x§f§f§7§f§0§0s §x§f§f§8§b§0§0b§x§f§f§9§6§0§0e§x§f§f§a§2§0§0e§x§f§f§a§e§0§0n
+    §x§f§f§b§9§0§0s§x§f§f§c§5§0§0t§x§f§f§d§0§0§0o§x§f§f§d§c§0§0p§x§f§f§e§8§0§0p§x§f§f§f§3§0§0e§x§f§f§f§f§0§0d
   minimum-api: none
 spawn-limits:
   axolotls: 5
