@@ -353,6 +353,13 @@
     },
     "done": true
   },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "golden_apple": "2022-04-09 15:59:52 +0200",
+      "enchanted_golden_apple": "2022-04-09 16:00:02 +0200"
+    },
+    "done": false
+  },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2021-12-06 13:29:32 +0100"
@@ -844,6 +851,12 @@
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2021-12-06 14:01:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2022-04-09 16:00:00 +0200"
     },
     "done": true
   },
