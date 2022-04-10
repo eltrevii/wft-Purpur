@@ -8,28 +8,28 @@ Titles:
   Enabled: true # Enable the titles effect feature
   # # All support %player% %x% %y% and %z% placeholders
   NoDelay: # Only triggers when there is no delay
-    Title: '&6Teleporting...'
-    Subtitle: '&8please wait'
+    Title: '&6Teletransportando...'
+    Subtitle: '&8en 3 segundos'
     SendMessage: true
   Teleport:
-    Title: '&6Teleported!'
-    Subtitle: '&fx=%x% y=%y% z=%z% in %attempts% attempts'
+    Title: '&6¡Teletransportado!'
+    Subtitle: '&fx=%x% y=%y% z=%z% en %attempts% intentos'
     SendMessage: true # Allow the teleport success message in chat
   Delay:
     Title: ''
-    Subtitle: '&fTeleporting in %time% seconds...'
+    Subtitle: '&fTeletransportando en %time% segundos...'
     SendMessage: true # Allow the teleport delay message in chat
   Cancelled:
-    Title: '&eYou moved...'
-    Subtitle: '&cRtp was cancelled!'
+    Title: '&eTe has movido...'
+    Subtitle: '&c¡El RTP ha sido cancelado!'
     SendMessage: true # Allow the cancelled message in chat too
   Loading:
     Title: ''
-    Subtitle: '&7loading chunks... please wait'
+    Subtitle: '&7Cargando los chunks... por favor espera'
     SendMessage: true # Allow the loading message in chat
   Failed:
     Title: ''
-    Subtitle: '&cFailed! No safe spots located'
+    Subtitle: '&c¡Fallido! No se han encontrado sitios seguros'
     SendMessage: true
 Particles: # Use `rtp info particles` for a list of particles
   Enabled: true
