@@ -14,8 +14,8 @@ portalEffectSizeY: 7
 # All others are discarded
 portalActivationDistance: 20
 
-portalBlockUpdateInterval: 20 # How often the portal will re-check for the blocks around it
-blockStateRefreshInterval: 40 # How often modified block states are resent to the player
+portalBlockUpdateInterval: 1 # How often the portal will re-check for the blocks around it
+blockStateRefreshInterval: 1 # How often modified block states are resent to the player
 
 # Delay between portal autosaves, in ticks. Set to -1 to disable
 portalSaveInterval: 6000
