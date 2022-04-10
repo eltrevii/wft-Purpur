@@ -129,8 +129,17 @@ messages:
       §x§f§f§8§6§0§0e§x§f§f§8§c§0§0n§x§f§f§9§3§0§0a§x§f§f§9§a§0§0b§x§f§f§a§1§0§0l§x§f§f§a§7§0§0e§x§f§f§a§e§0§0d
       §x§f§f§b§5§0§0o§x§f§f§b§c§0§0n §x§f§f§c§2§0§0t§x§f§f§c§9§0§0h§x§f§f§d§0§0§0i§x§f§f§d§7§0§0s
       §x§f§f§d§d§0§0s§x§f§f§e§4§0§0e§x§f§f§e§b§0§0r§x§f§f§f§2§0§0v§x§f§f§f§8§0§0e§x§f§f§f§f§0§0r
-    connection-throttle: §x§f§f§0§0§0§0C§x§f§f§0§5§0§0o§x§f§f§0§b§0§0n§x§f§f§1§0§0§0n§x§f§f§1§5§0§0e§x§f§f§1§a§0§0c§x§f§f§2§0§0§0t§x§f§f§2§5§0§0i§x§f§f§2§a§0§0o§x§f§f§3§0§0§0n §x§f§f§3§5§0§0t§x§f§f§3§a§0§0h§x§f§f§4§0§0§0r§x§f§f§4§5§0§0o§x§f§f§4§a§0§0t§x§f§f§4§f§0§0t§x§f§f§5§5§0§0l§x§f§f§5§a§0§0e§x§f§f§5§f§0§0d§x§f§f§6§5§0§0! §x§f§f§6§a§0§0P§x§f§f§6§f§0§0l§x§f§f§7§4§0§0e§x§f§f§7§a§0§0a§x§f§f§7§f§0§0s§x§f§f§8§4§0§0e §x§f§f§8§a§0§0w§x§f§f§8§f§0§0a§x§f§f§9§4§0§0i§x§f§f§9§a§0§0t §x§f§f§9§f§0§0b§x§f§f§a§4§0§0e§x§f§f§a§a§0§0f§x§f§f§a§f§0§0o§x§f§f§b§4§0§0r§x§f§f§b§a§0§0e §x§f§f§b§f§0§0r§x§f§f§c§4§0§0e§x§f§f§c§a§0§0c§x§f§f§c§f§0§0o§x§f§f§d§4§0§0n§x§f§f§d§a§0§0n§x§f§f§d§f§0§0e§x§f§f§e§4§0§0c§x§f§f§e§a§0§0t§x§f§f§e§f§0§0i§x§f§f§f§4§0§0n§x§f§f§f§a§0§0g§x§f§f§f§f§0§0.
-    authentication-servers-down: §x§f§f§0§0§0§0T§x§f§f§0§5§0§0h§x§f§f§0§a§0§0e §x§f§f§0§e§0§0a§x§f§f§1§3§0§0u§x§f§f§1§8§0§0t§x§f§f§1§d§0§0h§x§f§f§2§2§0§0e§x§f§f§2§6§0§0n§x§f§f§2§b§0§0t§x§f§f§3§0§0§0i§x§f§f§3§5§0§0c§x§f§f§3§a§0§0a§x§f§f§3§e§0§0t§x§f§f§4§3§0§0i§x§f§f§4§8§0§0o§x§f§f§4§d§0§0n §x§f§f§5§1§0§0s§x§f§f§5§6§0§0e§x§f§f§5§b§0§0r§x§f§f§6§0§0§0v§x§f§f§6§5§0§0e§x§f§f§6§9§0§0r§x§f§f§6§e§0§0s §x§f§f§7§3§0§0a§x§f§f§7§8§0§0r§x§f§f§7§d§0§0e §x§f§f§8§1§0§0d§x§f§f§8§6§0§0o§x§f§f§8§b§0§0w§x§f§f§9§0§0§0n§x§f§f§9§5§0§0. §x§f§f§9§a§0§0P§x§f§f§9§e§0§0l§x§f§f§a§3§0§0e§x§f§f§a§8§0§0a§x§f§f§a§d§0§0s§x§f§f§b§2§0§0e §x§f§f§b§7§0§0w§x§f§f§b§b§0§0a§x§f§f§c§0§0§0i§x§f§f§c§5§0§0t §x§f§f§c§a§0§0a §x§f§f§c§f§0§0f§x§f§f§d§4§0§0e§x§f§f§d§8§0§0w §x§f§f§d§d§0§0m§x§f§f§e§2§0§0i§x§f§f§e§7§0§0n§x§f§f§e§c§0§0u§x§f§f§f§1§0§0t§x§f§f§f§5§0§0e§x§f§f§f§a§0§0s§x§f§f§f§f§0§0.
+    connection-throttle: §x§f§f§0§0§0§0C§x§f§f§0§5§0§0o§x§f§f§0§b§0§0n§x§f§f§1§0§0§0n§x§f§f§1§5§0§0e§x§f§f§1§a§0§0c§x§f§f§2§0§0§0t§x§f§f§2§5§0§0i§x§f§f§2§a§0§0o§x§f§f§3§0§0§0n
+      §x§f§f§3§5§0§0t§x§f§f§3§a§0§0h§x§f§f§4§0§0§0r§x§f§f§4§5§0§0o§x§f§f§4§a§0§0t§x§f§f§4§f§0§0t§x§f§f§5§5§0§0l§x§f§f§5§a§0§0e§x§f§f§5§f§0§0d§x§f§f§6§5§0§0!
+      §x§f§f§6§a§0§0P§x§f§f§6§f§0§0l§x§f§f§7§4§0§0e§x§f§f§7§a§0§0a§x§f§f§7§f§0§0s§x§f§f§8§4§0§0e
+      §x§f§f§8§a§0§0w§x§f§f§8§f§0§0a§x§f§f§9§4§0§0i§x§f§f§9§a§0§0t §x§f§f§9§f§0§0b§x§f§f§a§4§0§0e§x§f§f§a§a§0§0f§x§f§f§a§f§0§0o§x§f§f§b§4§0§0r§x§f§f§b§a§0§0e
+      §x§f§f§b§f§0§0r§x§f§f§c§4§0§0e§x§f§f§c§a§0§0c§x§f§f§c§f§0§0o§x§f§f§d§4§0§0n§x§f§f§d§a§0§0n§x§f§f§d§f§0§0e§x§f§f§e§4§0§0c§x§f§f§e§a§0§0t§x§f§f§e§f§0§0i§x§f§f§f§4§0§0n§x§f§f§f§a§0§0g§x§f§f§f§f§0§0.
+    authentication-servers-down: §x§f§f§0§0§0§0T§x§f§f§0§5§0§0h§x§f§f§0§a§0§0e §x§f§f§0§e§0§0a§x§f§f§1§3§0§0u§x§f§f§1§8§0§0t§x§f§f§1§d§0§0h§x§f§f§2§2§0§0e§x§f§f§2§6§0§0n§x§f§f§2§b§0§0t§x§f§f§3§0§0§0i§x§f§f§3§5§0§0c§x§f§f§3§a§0§0a§x§f§f§3§e§0§0t§x§f§f§4§3§0§0i§x§f§f§4§8§0§0o§x§f§f§4§d§0§0n
+      §x§f§f§5§1§0§0s§x§f§f§5§6§0§0e§x§f§f§5§b§0§0r§x§f§f§6§0§0§0v§x§f§f§6§5§0§0e§x§f§f§6§9§0§0r§x§f§f§6§e§0§0s
+      §x§f§f§7§3§0§0a§x§f§f§7§8§0§0r§x§f§f§7§d§0§0e §x§f§f§8§1§0§0d§x§f§f§8§6§0§0o§x§f§f§8§b§0§0w§x§f§f§9§0§0§0n§x§f§f§9§5§0§0.
+      §x§f§f§9§a§0§0P§x§f§f§9§e§0§0l§x§f§f§a§3§0§0e§x§f§f§a§8§0§0a§x§f§f§a§d§0§0s§x§f§f§b§2§0§0e
+      §x§f§f§b§7§0§0w§x§f§f§b§b§0§0a§x§f§f§c§0§0§0i§x§f§f§c§5§0§0t §x§f§f§c§a§0§0a
+      §x§f§f§c§f§0§0f§x§f§f§d§4§0§0e§x§f§f§d§8§0§0w §x§f§f§d§d§0§0m§x§f§f§e§2§0§0i§x§f§f§e§7§0§0n§x§f§f§e§c§0§0u§x§f§f§f§1§0§0t§x§f§f§f§5§0§0e§x§f§f§f§a§0§0s§x§f§f§f§f§0§0.
 world-settings:
   default:
     slime-spawn-height:
