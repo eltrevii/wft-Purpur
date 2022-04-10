@@ -155,10 +155,10 @@ world-settings:
     anticheat:
       obfuscation:
         items:
-          hide-itemmeta: true
-          hide-durability: true
-    disable-thunder: true
-    disable-ice-and-snow: true
+          hide-itemmeta: false
+          hide-durability: false
+    disable-thunder: false
+    disable-ice-and-snow: false
     keep-spawn-loaded-range: 10
     map-item-frame-cursor-limit: 128
     armor-stands-tick: true
