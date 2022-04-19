@@ -1,4 +1,3 @@
-
 #  ExamplePortal:
 #    world: it will be the world name
 #    triggerblock: LAVA # will only be used if the hastriggerblock is true and can be id or text
@@ -16,4 +15,30 @@
 #      tppos:
 #        X:
 #        Y:
-#        Z:
+
+a:
+  world: world
+  triggerblock: ACACIA_PLANKS
+  pos1:
+    X: 115
+    Y: 69
+    Z: 104
+  pos2:
+    X: 115
+    Y: 68
+    Z: 103
+cmd:
+  world: world
+  triggerblock: NETHER_PORTAL
+  destination: cmdb
+  pos1:
+    X: 116
+    Y: 71
+    Z: 101
+  pos2:
+    X: 116
+    Y: 69
+    Z: 100
+  portalArgs:
+    particlein: explosion_huge
+    particleout: falling_water
