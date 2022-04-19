@@ -19,7 +19,7 @@
 
 		<!-- GUI logging - ignored if you use `java -jar server.jar nogui` -->
 		<Queue name="ServerGuiConsole">
-			<PatternLayout pattern="[%d{HH:mm:ss} %level]: %msg%n" />
+			<PatternLayout pattern="[%d{HH:mm:ss} %highlight{%level}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=green, DEBUG=green bold, TRACE=blue}]: %msg%n" />
 		</Queue>
 
 		<!-- file logging - stuff under the logs/ dir -->
