@@ -14,7 +14,7 @@
 
 		<!-- console logging - logs to stdout -->
 		<Console name="SysOut" target="SYSTEM_OUT">
-			<PatternLayout pattern="[%d{HH:mm:ss}] [%t/%level]: %msg%n" />
+			<PatternLayout pattern="[%d{HH:mm:ss}] [%t/%highlight{%level}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=green, DEBUG=green bold, TRACE=blue}]: %msg%n" />
 		</Console>
 
 		<!-- GUI logging - ignored if you use `java -jar server.jar nogui` -->
