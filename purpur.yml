@@ -66,6 +66,7 @@ settings:
     death:
       only-broadcast-to-affected-player: false
   network:
+    kick-for-out-of-order-chat: true
     max-joins-per-second: false
     upnp-port-forwarding: false
   blocks:
@@ -114,19 +115,35 @@ settings:
     sleep-skipping-night: default
     sleeping-players-percent: default
   enchantment:
+    allow-unsafe-enchants: false
+    clamp-levels: true
     allow-unsafe-enchant-command: false
     allow-looting-on-shears: false
     allow-infinity-and-mending-together: false
     allow-infinity-on-crossbow: false
-    allow-unsafe-enchants: false
+    anvil:
+      allow-unsafe-enchants: false
+      allow-inapplicable-enchants: true
+      allow-incompatible-enchants: true
+      allow-higher-enchants-levels: true
   logger:
+    suppress-sent-expired-chat: false
     suppress-setblock-in-far-chunk-errors: false
     suppress-init-legacy-material-errors: false
     suppress-ignored-advancement-warnings: false
     suppress-unrecognized-recipe-errors: false
 world-settings:
   default:
+    settings:
+      entity:
+        shared-random: true
     blocks:
+      sculk_shrieker:
+        can-summon-default: false
+      enchantment-table:
+        lapis-persists: false
+      coral:
+        die-outside-water: true
       no-random-tick: []
       observer:
         disable-clock: false
@@ -208,6 +225,7 @@ world-settings:
       slab:
         break-individual-slabs-when-sneaking: false
       turtle_egg:
+        feather-fall-distance-affects-trampling: false
         random-tick-crack-chance: 500
         bypass-mob-griefing: false
         break-from-exp-orbs: true
@@ -250,6 +268,8 @@ world-settings:
           damage-amount: 4.0
       cauldron:
         fill-chances:
+          dripstone-water: 0.17578125
+          dripstone-lava: 0.05859375
           rain: 0.05000000074505806
           powder-snow: 0.10000000149011612
       budding_amethyst:
@@ -275,6 +295,24 @@ world-settings:
           PARTIAL: 10
           FULL: 100
     mobs:
+      frog:
+        ridable: false
+        ridable-in-water: false
+        controllable: true
+        ridable-jump-height: 0.6499999761581421
+        breeding-delay-ticks: 6000
+      tadpole:
+        ridable: false
+        ridable-in-water: false
+        controllable: true
+      warden:
+        ridable: false
+        ridable-in-water: false
+        controllable: true
+      allay:
+        ridable: false
+        ridable-in-water: false
+        controllable: true
       pillager:
         controllable: true
         always-drop-exp: false
@@ -643,6 +681,7 @@ world-settings:
         attributes:
           max_health: 10.0
       horse:
+        stand-when-hurt: true
         always-drop-exp: false
         ridable-in-water: false
         breeding-delay-ticks: 6000
@@ -870,6 +909,7 @@ world-settings:
         attributes:
           max_health: 10.0
       skeleton:
+        feed-wither-roses: 0
         controllable: true
         always-drop-exp: false
         head-visibility-percent: 0.5
@@ -1130,6 +1170,22 @@ world-settings:
         attributes:
           max_health: 200.0
     gameplay-mechanics:
+      projectile-despawn-rates:
+        dragon_fireball: -1
+        egg: -1
+        ender_pearl: -1
+        experience_bottle: -1
+        firework_rocket: -1
+        fishing_bobber: -1
+        fireball: -1
+        llama_spit: -1
+        potion: -1
+        shulker_bullet: -1
+        small_fireball: -1
+        snowball: -1
+        wither_skull: -1
+      arrow:
+        movement-resets-despawn-counter: true
       mob-last-hurt-by-player-time: 100
       entity-lifespan: 0
       entity-left-handed-chance: 0.05000000074505806
@@ -1290,20 +1346,6 @@ world-settings:
         normal-arrows: true
         spectral-arrows: false
         tipped-arrows: false
-      projectile-despawn-rates:
-        dragon_fireball: -1
-        egg: -1
-        ender_pearl: -1
-        experience_bottle: -1
-        firework_rocket: -1
-        fishing_bobber: -1
-        fireball: -1
-        llama_spit: -1
-        potion: -1
-        shulker_bullet: -1
-        small_fireball: -1
-        snowball: -1
-        wither_skull: -1
       daylight-cycle-ticks:
         daytime: 12000
         nighttime: 12000
@@ -1369,6 +1411,12 @@ world-settings:
           minecraft:jungle_log:
             into: minecraft:stripped_jungle_log
             drops: {}
+          minecraft:mangrove_log:
+            drops: {}
+            into: minecraft:stripped_mangrove_log
+          minecraft:mangrove_wood:
+            drops: {}
+            into: minecraft:stripped_mangrove_wood
         waxables:
           minecraft:waxed_exposed_cut_copper:
             into: minecraft:exposed_cut_copper
